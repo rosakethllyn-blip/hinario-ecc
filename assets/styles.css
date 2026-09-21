@@ -1,0 +1,231 @@
+:root {
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-2: #f0f2f5;
+  --text: #1a2230;
+  --text-soft: #64748b;
+  --border: #e2e8f0;
+  --brand: #1f6feb;
+  --brand-dark: #1858c4;
+  --accent: #0e9f6e;
+  --chord: #1f6feb;
+  --shadow: 0 1px 3px rgba(16,24,40,.08), 0 1px 2px rgba(16,24,40,.04);
+  --shadow-lg: 0 10px 30px rgba(16,24,40,.12);
+}
+:root[data-theme="dark"] {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface-2: #1c232d;
+  --text: #e6edf3;
+  --text-soft: #8b98a9;
+  --border: #2a323c;
+  --brand: #4a8bff;
+  --brand-dark: #3b78e7;
+  --accent: #2bd4a0;
+  --chord: #6ea8ff;
+  --shadow: 0 1px 3px rgba(0,0,0,.4);
+  --shadow-lg: 0 12px 34px rgba(0,0,0,.5);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+/* ---------- Cabeçalho ---------- */
+.topo {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+.topo-inner {
+  max-width: 900px; margin: 0 auto;
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 16px;
+}
+.logo {
+  width: 40px; height: 40px; border-radius: 11px; flex: none;
+  background: linear-gradient(135deg, var(--brand), var(--accent));
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 20px;
+  box-shadow: var(--shadow);
+}
+.titulo-app { display: flex; flex-direction: column; line-height: 1.15; }
+.titulo-app b { font-size: 17px; letter-spacing: .2px; }
+.titulo-app span { font-size: 11px; color: var(--text-soft); text-transform: uppercase; letter-spacing: 1.5px; }
+.topo .espaco { flex: 1; }
+.icon-btn {
+  border: 1px solid var(--border); background: var(--surface-2);
+  color: var(--text); width: 40px; height: 40px; border-radius: 10px;
+  font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: background .15s, transform .05s;
+}
+.icon-btn:hover { background: var(--border); }
+.icon-btn:active { transform: scale(.94); }
+
+/* ---------- Abas ---------- */
+.tabs {
+  max-width: 900px; margin: 0 auto; padding: 14px 16px 4px;
+  display: flex; gap: 8px;
+}
+.tab {
+  flex: 1; padding: 12px 8px; border-radius: 12px;
+  border: 1px solid var(--border); background: var(--surface);
+  color: var(--text-soft); font-size: 15px; font-weight: 600; cursor: pointer;
+  transition: all .15s;
+}
+.tab:hover { border-color: var(--brand); color: var(--text); }
+.tab.ativa {
+  background: var(--brand); color: #fff; border-color: var(--brand);
+  box-shadow: var(--shadow);
+}
+
+/* ---------- Lista de músicas ---------- */
+.lista {
+  max-width: 900px; margin: 0 auto; padding: 10px 16px 40px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.musica-card {
+  display: flex; align-items: center; gap: 14px; text-align: left;
+  padding: 14px 16px; border-radius: 14px;
+  border: 1px solid var(--border); background: var(--surface);
+  cursor: pointer; color: var(--text); box-shadow: var(--shadow);
+  transition: transform .08s, border-color .15s, box-shadow .15s;
+}
+.musica-card:hover { border-color: var(--brand); box-shadow: var(--shadow-lg); }
+.musica-card:active { transform: scale(.99); }
+.musica-card .ordem {
+  flex: none; width: 34px; height: 34px; border-radius: 9px;
+  background: var(--surface-2); color: var(--brand);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 15px;
+}
+.musica-card .info { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.musica-card .titulo { font-size: 16px; font-weight: 600; }
+.musica-card .meta { font-size: 12.5px; color: var(--text-soft); margin-top: 2px; }
+.musica-card .seta { color: var(--text-soft); font-size: 26px; line-height: 1; }
+
+/* ---------- Rodapé ---------- */
+.rodape {
+  max-width: 900px; margin: 0 auto; padding: 0 16px 40px;
+  color: var(--text-soft); font-size: 12px; text-align: center;
+}
+
+/* ---------- Tela da música ---------- */
+.musica-view {
+  position: fixed; inset: 0; z-index: 40;
+  background: var(--bg);
+  display: none; flex-direction: column;
+}
+body.vendo-musica .musica-view { display: flex; }
+body.vendo-musica .home { display: none; }
+
+.mv-topo {
+  position: sticky; top: 0; z-index: 5;
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+.mv-topo-inner {
+  max-width: 900px; margin: 0 auto; padding: 12px 14px;
+  display: flex; align-items: center; gap: 12px;
+}
+.mv-voltar {
+  border: none; background: var(--surface-2); color: var(--text);
+  border-radius: 10px; padding: 9px 14px 9px 10px; cursor: pointer;
+  font-size: 14px; font-weight: 600; display: flex; align-items: center; gap: 4px;
+}
+.mv-voltar:hover { background: var(--border); }
+.mv-cabecalho { flex: 1; min-width: 0; }
+.mv-cabecalho h1 {
+  font-size: 18px; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.mv-cabecalho .subinfo {
+  font-size: 12px; color: var(--text-soft); margin-top: 2px;
+  display: flex; gap: 8px; flex-wrap: wrap;
+}
+.mv-cabecalho .pill {
+  background: var(--surface-2); padding: 1px 8px; border-radius: 20px;
+}
+
+/* barra de controles */
+.mv-controles {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+.mv-controles-inner {
+  max-width: 900px; margin: 0 auto; padding: 10px 14px;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.grupo-tom {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--surface-2); border-radius: 12px; padding: 6px 8px;
+}
+.grupo-tom .rotulo { font-size: 11px; color: var(--text-soft); text-transform: uppercase; letter-spacing: .5px; }
+.ctrl {
+  border: none; background: var(--surface); border: 1px solid var(--border);
+  color: var(--text); width: 38px; height: 38px; border-radius: 10px;
+  font-size: 20px; font-weight: 700; cursor: pointer;
+}
+.ctrl:hover { border-color: var(--brand); color: var(--brand); }
+.ctrl:active { transform: scale(.92); }
+.tom-visor {
+  min-width: 56px; text-align: center;
+}
+.tom-visor .tom-atual { font-size: 22px; font-weight: 800; color: var(--brand); line-height: 1; }
+.tom-visor .tom-base { font-size: 10px; color: var(--text-soft); display: block; margin-top: 2px; }
+.btn-reset {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-soft);
+  border-radius: 10px; height: 38px; min-width: 40px; padding: 0 10px;
+  cursor: pointer; font-size: 18px; font-weight: 600;
+}
+.btn-reset:hover { color: var(--brand); border-color: var(--brand); }
+.grupo-fonte { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.btn-fit {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-soft);
+  border-radius: 10px; height: 38px; padding: 0 12px; cursor: pointer;
+  font-size: 12.5px; font-weight: 700; white-space: nowrap;
+}
+.btn-fit:hover { color: var(--brand); border-color: var(--brand); }
+.btn-fit.ativo { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* corpo da cifra */
+.cifra-wrap { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; min-height: 0; }
+.cifra {
+  max-width: 900px; margin: 0 auto; padding: 14px 16px 40px;
+  font-family: "SF Mono", "Roboto Mono", "Consolas", "Menlo", monospace;
+  font-size: 15px;
+}
+.cifra.modo-fit { padding-bottom: 12px; }
+.linha {
+  display: flex; flex-wrap: wrap; align-items: flex-end;
+  margin: 0 0 1px;
+}
+.trecho { display: inline-flex; flex-direction: column; white-space: pre; }
+.acorde {
+  color: var(--chord); font-weight: 700; line-height: 1.05;
+  height: 1.25em; white-space: pre;
+}
+.texto { line-height: 1.3; white-space: pre; }
+.linha-vazia { height: .7em; }
+.secao {
+  color: var(--accent); font-weight: 800; letter-spacing: 1px;
+  font-size: .8em; text-transform: uppercase;
+  margin: .7em 0 .25em;
+}
+
+@media (max-width: 520px) {
+  .titulo-app b { font-size: 15px; }
+  .mv-topo-inner { padding: 9px 12px; }
+  .mv-cabecalho h1 { font-size: 16px; }
+  .mv-controles-inner { padding: 8px 10px; gap: 8px; }
+  .grupo-tom { padding: 4px 6px; gap: 6px; }
+  .ctrl { width: 34px; height: 34px; font-size: 18px; }
+  .btn-reset, .btn-fit { height: 34px; }
+  .cifra { padding-left: 12px; padding-right: 12px; }
+}

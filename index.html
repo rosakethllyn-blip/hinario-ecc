@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f6feb">
+  <title>Hinário Digital ECC</title>
+  <meta name="description" content="Hinário Digital ECC — letras e cifras das músicas, organizadas por dia, com transposição de tom.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231f6feb'/><text x='50' y='68' font-size='58' text-anchor='middle' fill='white'>&#9835;</text></svg>">
+</head>
+<body>
+
+  <!-- ================= HOME ================= -->
+  <div class="home">
+    <header class="topo">
+      <div class="topo-inner">
+        <div class="logo">&#9835;</div>
+        <div class="titulo-app">
+          <b>Hinário Digital</b>
+          <span>ECC</span>
+        </div>
+        <div class="espaco"></div>
+        <button class="icon-btn" id="btn-tema" title="Alternar tema claro/escuro">&#9681;</button>
+      </div>
+    </header>
+
+    <nav class="tabs" id="tabs"></nav>
+    <main class="lista" id="lista"></main>
+
+    <footer class="rodape">
+      Hinário Digital ECC · Encontro de Casais com Cristo
+    </footer>
+  </div>
+
+  <!-- ================= MÚSICA ================= -->
+  <section class="musica-view" id="musica-view">
+    <div class="mv-topo">
+      <div class="mv-topo-inner">
+        <button class="mv-voltar" id="btn-voltar">&#8249;&nbsp;Voltar</button>
+        <div class="mv-cabecalho">
+          <h1 id="mv-titulo">—</h1>
+          <div class="subinfo">
+            <span class="pill" id="mv-pagina">pág.</span>
+            <span class="pill" id="mv-numero">nº</span>
+            <span class="pill" id="mv-obs" style="display:none"></span>
+          </div>
+        </div>
+      </div>
+      <div class="mv-controles">
+        <div class="mv-controles-inner">
+          <div class="grupo-tom">
+            <span class="rotulo">Tom</span>
+            <button class="ctrl" id="btn-menos" title="Diminuir meio tom">&minus;</button>
+            <div class="tom-visor">
+              <span class="tom-atual" id="mv-tom">—</span>
+              <span class="tom-base" id="mv-tom-base"></span>
+            </div>
+            <button class="ctrl" id="btn-mais" title="Aumentar meio tom">+</button>
+          </div>
+          <button class="btn-reset" id="btn-reset" title="Voltar ao tom original">&#8635;</button>
+          <div class="grupo-fonte">
+            <button class="ctrl" id="btn-fonte-menos" title="Diminuir letra">A&minus;</button>
+            <button class="ctrl" id="btn-fonte-mais" title="Aumentar letra">A+</button>
+            <button class="btn-fit" id="btn-fit" title="Encaixar a música inteira na tela">&#8690; Encaixar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cifra-wrap" id="cifra-wrap">
+      <div class="cifra modo-fit" id="cifra"></div>
+    </div>
+  </section>
+
+  <script src="assets/songs.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
