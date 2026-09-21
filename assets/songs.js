@@ -569,5 +569,37 @@ REFRÃO
 [D]Que o ciúme não mate a cer[G]teza do amor entre os [A]dois
 [D]Que no seu firmamento a es[G]trela que tem maior [A]brilho
 [D]Seja a firme esperança de um [G]céu aqui mesmo e de[D]pois`
+},
+
+/* ========================= EXTRAS ========================= */
+{
+  dia: "extras", ordem: 1, numero: 36, pagina: 34,
+  titulo: "Chamados à Missão", tom: "G", tomObs: "tom original",
+  corpo: `
+[G]Eu sou cha[Am]mado / Você é cha[D7]mado
+[G]Chamado somos todos [D7]nós [G]
+
+[G]Ao discipu[Am]lado, à missionarie[D7]dade
+[G]À solidarie[D7]dade, [G]
+
+[G]Assim reavivará o [Em]dom de [D]Deus
+[Am]Que está em [G]ti, que está em [D7]mim
+Que está em [G]nós
+
+[Em]Senhor e [D]Deus / Pai-Cria[G]dor
+[Em]Graças e [D]bênçãos / abundantes sobre [G]nós [D]
+[Em]Venham de [D]vós / Constante[G]mente
+[Am]Somos o povo, a na[D7]ção / Promessa de Abra[G]ão
+
+[Em]Em Jesus [D]Cristo / somos discí[G]pulos
+[Am]Em perma[D7]nente mis[G]são
+
+[Em]Senhor e [D]Deus / Pai-Cria[G]dor
+[Am]Comprome[D7]tidos / com Jesus estamos [G]nós
+
+[Em]Venha a [D]nós / O vosso [G]reino
+[Am]E que o espírito es[D7]teja
+[Em]Na caminhada e nos pro[D]teja
+[D]Nossa se[D7]nhora / Medianeira nos [G]seja!`
 }
 ];

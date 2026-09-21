@@ -120,7 +120,8 @@
   var DIAS = [
     { id: "sexta", nome: "Sexta-feira" },
     { id: "sabado", nome: "Sábado" },
-    { id: "domingo", nome: "Domingo" }
+    { id: "domingo", nome: "Domingo" },
+    { id: "extras", nome: "Extras" }
   ];
   var estado = {
     dia: "sexta",
