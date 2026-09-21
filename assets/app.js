@@ -217,7 +217,7 @@
     var useFlat = shouldUseFlat(tomNovo);
     var tomExibir = transposeChord(tomBase, estado.steps, useFlat);
     el.mvTom.textContent = tomExibir;
-    el.mvTomBase.textContent = (estado.steps === 0)
+    el.mvTom.title = (estado.steps === 0)
       ? "tom original"
       : "original: " + tomBase + " (" + (estado.steps > 0 ? "+" : "") + estado.steps + ")";
     el.cifra.innerHTML = "";
@@ -288,7 +288,6 @@
     el.mvNumero = document.getElementById("mv-numero");
     el.mvObs = document.getElementById("mv-obs");
     el.mvTom = document.getElementById("mv-tom");
-    el.mvTomBase = document.getElementById("mv-tom-base");
     el.cifra = document.getElementById("cifra");
     el.cifraWrap = document.getElementById("cifra-wrap");
     el.btnFit = document.getElementById("btn-fit");
@@ -310,6 +309,18 @@
     document.getElementById("btn-fonte-mais").onclick = function () {
       estado.fit = false; estado.fontManual += 1; ajustarFonte();
     };
+    document.getElementById("btn-toggle").onclick = function () {
+      var ocultar = !document.body.classList.contains("controles-ocultos");
+      document.body.classList.toggle("controles-ocultos", ocultar);
+      try { localStorage.setItem("hinario-controles", ocultar ? "ocultos" : "visiveis"); } catch (e) {}
+      // recalcula o encaixe após a cortina abrir/fechar (transição ~240ms)
+      setTimeout(ajustarFonte, 260);
+    };
+    try {
+      if (localStorage.getItem("hinario-controles") === "ocultos") {
+        document.body.classList.add("controles-ocultos");
+      }
+    } catch (e) {}
     document.getElementById("btn-tema").onclick = function () {
       var atual = document.documentElement.getAttribute("data-theme");
       var novo = atual === "dark" ? "light" : "dark";

@@ -46,24 +46,23 @@
             <span class="pill" id="mv-obs" style="display:none"></span>
           </div>
         </div>
+        <button class="mv-toggle" id="btn-toggle" title="Mostrar/ocultar controles" aria-label="Mostrar ou ocultar controles">
+          <span class="chev">&#9662;</span>
+        </button>
       </div>
-      <div class="mv-controles">
+      <div class="mv-controles" id="mv-controles">
         <div class="mv-controles-inner">
           <div class="grupo-tom">
-            <span class="rotulo">Tom</span>
+            <span class="rotulo">TOM</span>
             <button class="ctrl" id="btn-menos" title="Diminuir meio tom">&minus;</button>
-            <div class="tom-visor">
-              <span class="tom-atual" id="mv-tom">—</span>
-              <span class="tom-base" id="mv-tom-base"></span>
-            </div>
+            <span class="tom-atual" id="mv-tom">—</span>
             <button class="ctrl" id="btn-mais" title="Aumentar meio tom">+</button>
           </div>
-          <button class="btn-reset" id="btn-reset" title="Voltar ao tom original">&#8635;</button>
-          <div class="grupo-fonte">
-            <button class="ctrl" id="btn-fonte-menos" title="Diminuir letra">A&minus;</button>
-            <button class="ctrl" id="btn-fonte-mais" title="Aumentar letra">A+</button>
-            <button class="btn-fit" id="btn-fit" title="Encaixar a música inteira na tela">&#8690; Encaixar</button>
-          </div>
+          <button class="ctrl" id="btn-reset" title="Voltar ao tom original">&#8635;</button>
+          <span class="sep"></span>
+          <button class="ctrl" id="btn-fonte-menos" title="Diminuir letra">A&minus;</button>
+          <button class="ctrl" id="btn-fonte-mais" title="Aumentar letra">A+</button>
+          <button class="btn-fit" id="btn-fit" title="Encaixar a música inteira na tela">&#8690;<span class="fit-txt">&nbsp;Encaixar</span></button>
         </div>
       </div>
     </div>

@@ -153,43 +153,59 @@ body.vendo-musica .home { display: none; }
   background: var(--surface-2); padding: 1px 8px; border-radius: 20px;
 }
 
-/* barra de controles */
+/* botão de "cortina" (mostrar/ocultar controles) */
+.mv-toggle {
+  flex: none; width: 40px; height: 40px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+}
+.mv-toggle:hover { border-color: var(--brand); color: var(--brand); }
+.mv-toggle .chev { font-size: 15px; line-height: 1; transition: transform .22s ease; }
+body.controles-ocultos .mv-toggle .chev { transform: rotate(-180deg); }
+
+/* barra de controles — tudo em uma linha só */
 .mv-controles {
   border-top: 1px solid var(--border);
   background: var(--surface);
+  overflow: hidden;
+  max-height: 64px;
+  transition: max-height .24s ease, opacity .2s ease, border-color .24s;
+}
+body.controles-ocultos .mv-controles {
+  max-height: 0; opacity: 0; border-top-color: transparent;
 }
 .mv-controles-inner {
-  max-width: 900px; margin: 0 auto; padding: 10px 14px;
-  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  max-width: 900px; margin: 0 auto; padding: 10px 12px;
+  display: flex; align-items: center; gap: 7px;
+  flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
 }
+.mv-controles-inner::-webkit-scrollbar { height: 0; }
 .grupo-tom {
-  display: flex; align-items: center; gap: 8px;
-  background: var(--surface-2); border-radius: 12px; padding: 6px 8px;
+  display: flex; align-items: center; gap: 5px; flex: none;
+  background: var(--surface-2); border-radius: 11px; padding: 4px 7px;
 }
-.grupo-tom .rotulo { font-size: 11px; color: var(--text-soft); text-transform: uppercase; letter-spacing: .5px; }
+.grupo-tom .rotulo { font-size: 10px; color: var(--text-soft); letter-spacing: .5px; }
 .ctrl {
-  border: none; background: var(--surface); border: 1px solid var(--border);
+  flex: none;
+  background: var(--surface); border: 1px solid var(--border);
   color: var(--text); width: 38px; height: 38px; border-radius: 10px;
-  font-size: 20px; font-weight: 700; cursor: pointer;
+  font-size: 19px; font-weight: 700; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
 }
 .ctrl:hover { border-color: var(--brand); color: var(--brand); }
 .ctrl:active { transform: scale(.92); }
-.tom-visor {
-  min-width: 56px; text-align: center;
+.tom-atual {
+  font-size: 20px; font-weight: 800; color: var(--brand); line-height: 1;
+  min-width: 40px; text-align: center;
 }
-.tom-visor .tom-atual { font-size: 22px; font-weight: 800; color: var(--brand); line-height: 1; }
-.tom-visor .tom-base { font-size: 10px; color: var(--text-soft); display: block; margin-top: 2px; }
-.btn-reset {
-  border: 1px solid var(--border); background: var(--surface); color: var(--text-soft);
-  border-radius: 10px; height: 38px; min-width: 40px; padding: 0 10px;
-  cursor: pointer; font-size: 18px; font-weight: 600;
-}
-.btn-reset:hover { color: var(--brand); border-color: var(--brand); }
-.grupo-fonte { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+#btn-reset { font-size: 17px; color: var(--text-soft); }
+.sep { flex: none; width: 1px; height: 28px; background: var(--border); margin: 0 1px; }
 .btn-fit {
+  flex: none;
   border: 1px solid var(--border); background: var(--surface); color: var(--text-soft);
-  border-radius: 10px; height: 38px; padding: 0 12px; cursor: pointer;
-  font-size: 12.5px; font-weight: 700; white-space: nowrap;
+  border-radius: 10px; height: 38px; padding: 0 11px; cursor: pointer;
+  font-size: 13px; font-weight: 700; white-space: nowrap;
+  display: flex; align-items: center;
 }
 .btn-fit:hover { color: var(--brand); border-color: var(--brand); }
 .btn-fit.ativo { background: var(--accent); color: #fff; border-color: var(--accent); }
@@ -223,9 +239,15 @@ body.vendo-musica .home { display: none; }
   .titulo-app b { font-size: 15px; }
   .mv-topo-inner { padding: 9px 12px; }
   .mv-cabecalho h1 { font-size: 16px; }
-  .mv-controles-inner { padding: 8px 10px; gap: 8px; }
-  .grupo-tom { padding: 4px 6px; gap: 6px; }
-  .ctrl { width: 34px; height: 34px; font-size: 18px; }
-  .btn-reset, .btn-fit { height: 34px; }
+  .mv-controles-inner { padding: 8px 10px; gap: 6px; }
+  .grupo-tom { padding: 4px 6px; gap: 5px; }
+  .ctrl { width: 36px; height: 36px; font-size: 18px; }
+  .btn-fit { height: 36px; }
+  .mv-controles { max-height: 60px; }
   .cifra { padding-left: 12px; padding-right: 12px; }
+}
+@media (max-width: 400px) {
+  .fit-txt { display: none; }        /* mostra só o ícone do "Encaixar" */
+  .grupo-tom .rotulo { display: none; }
+  .mv-voltar { padding: 9px 10px; }
 }
