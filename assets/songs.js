@@ -506,7 +506,7 @@ Te amar ir[A7]mão / sorrir e dar per[D]dão
 Faz um [Em]bom Cris[A7]tão [D]`
 },
 {
-  dia: "domingo", ordem: 6, numero: 11, pagina: 10,
+  dia: "domingo", ordem: 7, numero: 11, pagina: 10,
   titulo: "Canto Para as Refeições", tom: "D", tomObs: "dedilhado / violão",
   corpo: `
 ANTES
@@ -524,7 +524,7 @@ DEPOIS
 [Bm]O alimento que ti[Em]ve[A]mos. Ale[D]luia.`
 },
 {
-  dia: "domingo", ordem: 7, numero: 33, pagina: 31,
+  dia: "domingo", ordem: 8, numero: 33, pagina: 31,
   titulo: "Para Ser Feliz", tom: "G", tomObs: "sugerido",
   corpo: `
 [G]Para ser fe[Em]liz / é preciso [C]ver [D]
@@ -544,7 +544,7 @@ REFRÃO
 [G]E fazer meu ir[C]mão cres[D]cer [G]`
 },
 {
-  dia: "domingo", ordem: 8, numero: 34, pagina: 32,
+  dia: "domingo", ordem: 9, numero: 34, pagina: 32,
   titulo: "Oração da Família", tom: "D", tomObs: "sugerido",
   corpo: `
 [D]Que nenhuma família co[G]mece em qualquer de re[A]pente
@@ -571,9 +571,8 @@ REFRÃO
 [D]Seja a firme esperança de um [G]céu aqui mesmo e de[D]pois`
 },
 
-/* ========================= EXTRAS ========================= */
 {
-  dia: "extras", ordem: 1, numero: 36, pagina: 34,
+  dia: "domingo", ordem: 6, numero: 36, pagina: 34,
   titulo: "Chamados à Missão", tom: "G", tomObs: "tom original",
   corpo: `
 [G]Eu sou cha[Am]mado / Você é cha[D7]mado
