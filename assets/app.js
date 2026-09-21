@@ -222,8 +222,9 @@
       : "original: " + tomBase + " (" + (estado.steps > 0 ? "+" : "") + estado.steps + ")";
     el.cifra.innerHTML = "";
     el.cifra.appendChild(renderCorpo(m.corpo, estado.steps, useFlat));
-    // esconde durante a medição para não "piscar" o tamanho grande
-    el.cifra.style.visibility = "hidden";
+    // ajusta de forma síncrona (garante que a cifra sempre apareça),
+    // e refina depois que o layout/fontes assentam
+    ajustarFonte();
     requestAnimationFrame(function () {
       requestAnimationFrame(ajustarFonte);
     });
@@ -235,6 +236,7 @@
     if (!el.cifra) return;
     var wrap = el.cifraWrap;
     if (wrap.clientHeight < 40) { el.cifra.style.visibility = "visible"; return; }
+    el.cifra.style.visibility = "hidden"; // some durante a medição (mesma execução síncrona)
     if (estado.fit) {
       el.cifra.classList.add("modo-fit");
       // mede com a maior fonte e vai reduzindo até caber (altura e largura)
