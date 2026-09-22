@@ -339,8 +339,10 @@
       if (g.chord != null) {
         var pill = document.createElement("span");
         pill.className = "pill-acorde" + (estado.sel && estado.sel.li === li && estado.sel.ci === g.idx ? " sel" : "");
-        pill.textContent = g.chord;
+        pill.textContent = g.chord || "?";
+        pill.dataset.li = li; pill.dataset.ci = g.idx;
         pill.onclick = function (ev) { ev.stopPropagation(); selecionarAcorde(li, g.idx); };
+        pill.ondblclick = function (ev) { ev.stopPropagation(); ev.preventDefault(); editarInline(li, g.idx, false); };
         ac.appendChild(pill);
       } else {
         ac.innerHTML = "&nbsp;";
@@ -384,11 +386,52 @@
     marcarEditado(); renderEditor();
   }
   function editarAcordeTexto() {
-    var s = acordeSel(); if (!s) return;
-    var novo = window.prompt("Trocar a nota (acorde):", s.c.chord);
-    if (novo == null) return;
-    novo = novo.trim();
-    if (novo) { s.c.chord = novo; marcarEditado(); renderEditor(); }
+    if (!estado.sel) return;
+    editarInline(estado.sel.li, estado.sel.ci, false);
+  }
+
+  // Edita a nota ali mesmo (campo inline), sem abrir janela
+  function editarInline(li, ci, isNew) {
+    var l = estado.modelo[li];
+    if (!l || !l.chords[ci]) return;
+    // garante que a nota esteja selecionada e re-renderizada
+    if (!estado.sel || estado.sel.li !== li || estado.sel.ci !== ci) {
+      estado.sel = { li: li, ci: ci };
+      document.body.classList.add("sel-ativa");
+      renderEditor();
+    }
+    var pill = el.cifra.querySelector('.pill-acorde[data-li="' + li + '"][data-ci="' + ci + '"]');
+    if (!pill) return;
+    var chord = l.chords[ci];
+    var inp = document.createElement("input");
+    inp.type = "text";
+    inp.className = "pill-input";
+    inp.value = chord.chord;
+    inp.setAttribute("autocapitalize", "off");
+    inp.setAttribute("autocorrect", "off");
+    inp.spellcheck = false;
+    pill.replaceWith(inp);
+    inp.focus();
+    try { inp.select(); } catch (e) {}
+    var feito = false;
+    function commit() {
+      if (feito) return; feito = true;
+      var v = inp.value.trim();
+      if (v) { chord.chord = v; marcarEditado(); }
+      else if (isNew) { l.chords.splice(ci, 1); estado.sel = null; document.body.classList.remove("sel-ativa"); }
+      renderEditor();
+    }
+    function cancelar() {
+      if (feito) return; feito = true;
+      if (isNew) { l.chords.splice(ci, 1); estado.sel = null; document.body.classList.remove("sel-ativa"); }
+      renderEditor();
+    }
+    inp.onblur = commit;
+    inp.onkeydown = function (e) {
+      e.stopPropagation(); // não deixa as setas do editor moverem a nota enquanto digita
+      if (e.key === "Enter") { e.preventDefault(); inp.blur(); }
+      else if (e.key === "Escape") { e.preventDefault(); cancelar(); }
+    };
   }
   function apagarAcorde() {
     var s = acordeSel(); if (!s) return;
@@ -398,16 +441,13 @@
     marcarEditado(); renderEditor();
   }
   function adicionarAcordeEm(li, pos) {
-    var novo = window.prompt("Nova nota (acorde) neste lugar:", "");
-    if (novo == null) return;
-    novo = novo.trim();
-    if (!novo) return;
     var l = estado.modelo[li];
-    l.chords.push({ pos: pos, chord: novo });
-    estado.sel = { li: li, ci: l.chords.length - 1 };
-    marcarEditado();
-    renderEditor();
+    l.chords.push({ pos: pos, chord: "" });
+    var ci = l.chords.length - 1;
+    estado.sel = { li: li, ci: ci };
     document.body.classList.add("sel-ativa");
+    renderEditor();
+    editarInline(li, ci, true); // digita a nota ali mesmo
   }
   function marcarEditado() { estado.editouAlgo = true; }
 

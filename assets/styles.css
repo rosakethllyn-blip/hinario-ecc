@@ -282,6 +282,13 @@ body.editando #btn-toggle { display: none; }
 .pill-acorde.sel {
   background: var(--accent); color: #fff; border-color: var(--accent); border-style: solid;
 }
+.pill-input {
+  font-family: inherit; font-size: 1em; font-weight: 800; color: var(--chord);
+  width: 4ch; min-width: 3ch; box-sizing: content-box;
+  border: 2px solid var(--accent); border-radius: 5px;
+  background: var(--surface); padding: 0 3px; text-align: center; line-height: 1.15;
+  outline: none;
+}
 .linha.edit .texto {
   cursor: text; border-bottom: 1px dotted transparent;
 }
