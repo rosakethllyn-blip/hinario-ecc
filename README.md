@@ -14,6 +14,13 @@ Aplicativo web (feito para celular) com as letras e cifras das músicas do
   na mão com **A−** e **A+**.
 - **Página do hinário impresso** aparece em cada música (ex.: "pág. 12").
 - **Tema claro/escuro** (botão no canto superior direito).
+- **Editor de cifra** (ícone de lápis ✎ na tela da música): toque numa **nota**
+  para **mover** (◀ ▶), **trocar** (✎) ou **apagar** (🗑); toque na **letra** para
+  **adicionar** uma nota naquele ponto. **Salvar** guarda a correção **no seu
+  aparelho** (a transposição passa a usar a nota corrigida). "↻ Original" desfaz
+  as edições daquela música. As músicas com correção mostram o selo *"editada"*.
+  *Obs.: por enquanto as edições ficam só no seu celular — quando você terminar de
+  ajustar, dá pra publicar tudo de uma vez para todos que acessam o site.*
 
 ## Como colocar no ar (GitHub Pages) — grátis
 
