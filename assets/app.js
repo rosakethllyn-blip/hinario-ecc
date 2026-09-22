@@ -234,12 +234,6 @@
       meta.textContent = "Tom " + m.tom + (m.tomObs ? " · " + m.tomObs : "") + " · pág. " + m.pagina;
       info.appendChild(titulo);
       info.appendChild(meta);
-      if (temOverride(m)) {
-        var ed = document.createElement("span");
-        ed.className = "selo-editada";
-        ed.textContent = "editada";
-        info.appendChild(ed);
-      }
 
       var seta = document.createElement("span");
       seta.className = "seta";
@@ -464,6 +458,23 @@
     atualizarCifra();
     renderLista();
   }
+  function copiarCodigo() {
+    var m = estado.musicaAtual; if (!m) return;
+    var corpo = estado.editando ? serializaModelo(estado.modelo) : corpoEfetivo(m);
+    var payload = "### " + m.titulo + " | dia:" + m.dia + " | tom:" + m.tom + "\n" + corpo;
+    var btn = document.getElementById("btn-copiar");
+    function ok() {
+      if (!btn) return;
+      var antigo = btn.innerHTML; btn.innerHTML = "&#10003; Copiado!";
+      setTimeout(function () { btn.innerHTML = antigo; }, 1800);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(payload).then(ok, function () { window.prompt("Copie o código abaixo (Ctrl+C) e cole no chat:", payload); });
+    } else {
+      window.prompt("Copie o código abaixo (Ctrl+C) e cole no chat:", payload);
+    }
+  }
+
   function restaurarOriginal() {
     if (!estado.musicaAtual) return;
     if (!window.confirm("Voltar a cifra desta música ao original? Isso apaga as suas edições dela.")) return;
@@ -575,6 +586,7 @@
     document.getElementById("btn-salvar").onclick = function () { sairEdicao(true); };
     document.getElementById("btn-cancelar").onclick = function () { sairEdicao(false); };
     document.getElementById("btn-restaurar").onclick = restaurarOriginal;
+    document.getElementById("btn-copiar").onclick = copiarCodigo;
     document.getElementById("sel-esq").onclick = function () { moverAcorde(-1); };
     document.getElementById("sel-dir").onclick = function () { moverAcorde(1); };
     document.getElementById("sel-editar").onclick = editarAcordeTexto;

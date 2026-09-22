@@ -24,32 +24,35 @@ window.HINARIO = [
   titulo: "Aleluia — Pode Entrar", tom: "D",
   corpo: `
 [D]Pode entrar a casa é sua. [G]Alelu[D]ia!
-Lado a lado vive[Bm]remos. [Em]Alelu[A]ia! [D]
+Lado a lado [Bm]viveremos. [Em]Alelu[A]ia! [D]
 [D]O Encontro é de alegria. [G]Alelu[D]ia!
-Cantaremos neste [Bm]dia. [Em]Alelu[A]ia! [D]
+Cantaremos [Bm]neste dia. [Em]Alelu[A]ia! [D]
 [D]Todos numa só família. [G]Alelu[D]ia!
-De mãos dadas como ir[Bm]mãos. [Em]Alelu[A]ia! [D]
+De mãos dadas [Bm]como irmãos. [Em]Alelu[A]ia! [D]
 [D]Corações entrelaçados. [G]Alelu[D]ia!
-Pelo Cristo abenço[Bm]ado. [Em]Alelu[A]ia! [D]
+Pelo Cristo [Bm]abençoado. [Em]Alelu[A]ia! [D]
 [D]Procurando a mesma luz. [G]Alelu[D]ia!
-Chegaremos a Je[Bm]sus. [Em]Alelu[A]ia! [D]`
+Chegaremos a [Bm]Jesus. [Em]Alelu[A]ia! [D]`
 },
 {
   dia: "sexta", ordem: 2, numero: 2, pagina: 3,
   titulo: "Cristo Já Vem", tom: "G",
   corpo: `
-[G]Cristo já vem ilumi[Em]nar
-[C]Minha alma de a[Am]mor e [D]paz
-[G]Meu sol, Jesus A[D]migo. [G]
+[G]Cristo já vem [Em]iluminar
+Minha [C]alma de [Am]amor e [D]paz
+Meu sol, [G]Jesus [D]amigo
 
-[Em]Os anjos cantam
-[C]Em seu lou[Am]vor, [D]
-[G]Derramando bên[D]çãos de amor
-[G]Meu sol, Jesus A[D]migo. [G]
+Os anjos [G]cantam
+Em seu [Em]louvor
+Derramando [C]bênçãos [Am]de [D]amor
+[D]Meu sol, [G]Jesus [D]amigo
 
-[B7]Deixa que eu viva
-[Em]Sempre, sempre a [Am]cantar o amor
-[D]E o Esplendor que o céu criou em seu lou[G]vor.`
+Deixai que eu [G]viva
+Sempre, sempre a cantar o [B7]amor
+E o [G]esplendor
+Que o céu [Am]criou
+Em seu [D]louvor
+[G]Cristo já vem`
 },
 {
   dia: "sexta", ordem: 3, numero: 4, pagina: 5,
