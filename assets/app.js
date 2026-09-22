@@ -417,6 +417,31 @@
   }
   function marcarEditado() { estado.editouAlgo = true; }
 
+  // lista de acordes em ordem (linha, depois posição) — para navegar pelo teclado
+  function listaAcordes() {
+    var arr = [];
+    estado.modelo.forEach(function (l, li) {
+      if (l.tipo !== "letra") return;
+      l.chords.map(function (c, ci) {
+        return { li: li, ci: ci, pos: Math.max(0, Math.min(l.text.length, c.pos)) };
+      }).sort(function (a, b) { return a.pos - b.pos; })
+        .forEach(function (x) { arr.push(x); });
+    });
+    return arr;
+  }
+  function navegarSelecao(dir) {
+    var arr = listaAcordes();
+    if (!arr.length) return;
+    var cur = -1;
+    if (estado.sel) {
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i].li === estado.sel.li && arr[i].ci === estado.sel.ci) { cur = i; break; }
+      }
+    }
+    var next = (cur < 0) ? (dir > 0 ? 0 : arr.length - 1) : Math.max(0, Math.min(arr.length - 1, cur + dir));
+    selecionarAcorde(arr[next].li, arr[next].ci);
+  }
+
   function entrarEdicao() {
     if (!estado.musicaAtual) return;
     estado.editando = true;
@@ -575,6 +600,30 @@
 
     document.addEventListener("keydown", function (e) {
       if (!document.body.classList.contains("vendo-musica")) return;
+
+      // ---- modo edição: setas do teclado ----
+      if (estado.editando) {
+        var k = e.key;
+        if (k === "ArrowLeft" || k === "ArrowRight") {
+          e.preventDefault();
+          if (!estado.sel) { navegarSelecao(1); }
+          else { moverAcorde(k === "ArrowLeft" ? -1 : 1); }
+        } else if (k === "ArrowUp") {
+          e.preventDefault(); navegarSelecao(-1);
+        } else if (k === "ArrowDown") {
+          e.preventDefault(); navegarSelecao(1);
+        } else if (k === "Enter") {
+          if (estado.sel) { e.preventDefault(); editarAcordeTexto(); }
+        } else if (k === "Delete") {
+          if (estado.sel) { e.preventDefault(); apagarAcorde(); }
+        } else if (k === "Escape") {
+          if (estado.sel) {
+            estado.sel = null; document.body.classList.remove("sel-ativa"); renderEditor();
+          } else { sairEdicao(false); }
+        }
+        return;
+      }
+
       if (e.key === "ArrowUp" || e.key === "+") { transpor(1); }
       else if (e.key === "ArrowDown" || e.key === "-") { transpor(-1); }
       else if (e.key === "Escape") { fecharMusica(); }
