@@ -96,66 +96,79 @@ A[E]lô, bom dia, ir[B7]mão... [E]`
 [D]Saber amar é [A]colher a [D]flor.
 [Bm]É cultivar o que Deus plan[A]tou.
 [G]É ouvir a [A]voz da ra[F#m]zão,
-[Bm]é só se[A]guir, sua dire[Em]ção. [A7] [D]
+[Bm]é só se[A]guir, sua di[Em]reçã[A7]o.  [D]
 
 [D]Saber amar é [A]dizer a[D]mém.
 [Bm]É superar o mal pelo [A]bem.
 [G]É abrir, [A]sempre o cora[F#m]ção,
-[Bm]Para pe[A]dir e dar o per[Em]dão. [A7] [D]
+[Bm]Para pe[A]dir e [Em]dar o[A7] perd[D]ão.
 
 [D]Saber amar é [A]compreen[D]der.
 [Bm]É encontrar sempre o outro [A]ser.
 [G]É sorrir, [A]um sorriso a [F#m]mais,
-[Bm]é constru[A]ir, um mundo de [Em]paz. [A7] [D]
+[Bm]é constru[A]ir, um[Em] mund[A7]o de pa[D]z.
 
 [D]Saber amar é [A]plantar o a[D]mor.
 [Bm]É confiar em nosso Se[A]nhor.
 [G]Abraçar, [A]sempre o nosso ir[F#m]mão,
-[Bm]é cami[A]nhar estendendo a [Em]mão [A7] [D]`
+[Bm]é cami[A]nhar [Em]estendend[A7]o a mã[D]o`
 },
 {
   dia: "sabado", ordem: 3, numero: 8, pagina: 8,
   titulo: "Um Coração Para Amar", tom: "G",
   corpo: `
-[G]Um coração para amar
-[Am]Pra perdoar e sen[D]tir
-[D7]Para chorar e sor[Am]rir
-Ao me criar Tu me [G]destes.
-
-[G]Um coração pra sonhar
-[Am]inquieto e sempre a ba[D]ter
-[D7]Ansioso por enten[Am]der
-As coisas que Tu dis[G]sestes.
+[G]  Um coração para amar
+Pra perdoar e sent[Am]ir  [D7]
+P[Am]ara chor[D7]ar e sorr[Am]ir
+[D7]Ao me criar tu me d[G]este
+Um coração pra sonhar
+Inquieto e sempre a bat[Am]er  [D7]
+[Am]Ansioso p[D7]or ent[Am]ender
+[D7]As coisas que tu diss[G]este
 
 REFRÃO
-[G7]Eis o que venho Te [C]dar
-[D]eis o que eu ponho no al[G]tar
-[Em]toma Senhor, que ele é [Am]Teu
-[D]Meu coração não é [G]meu
+[G7]Eis o que eu venho te d[C]ar
+[D]Eis o que eu ponho no alt[G]ar [D/F#]
+T[Em]oma senhor que ele é t[Am]eu
+M[D]eu coração não é m[F]eu [G7]
+Eis o que eu venho te d[C]ar
+[D]Eis o que eu ponho no alt[G]ar [D/F#]
+T[Em]oma senhor que ele é t[Am]eu  [D]
+M[Am]eu coraç[D]ão não é m[G]eu [G7]
+Qu[G]ero que o meu coração
+Seja tão cheio de p[Am]az  [D7]
+Q[Am]ue não se s[D7]inta cap[Am]az
+D[D7]e sentir ódio ou r[G]ancor
+Quero que a minha oração
+Possa me amadurec[Am]er  [D7]
+L[Am]eve-me a c[D7]ompreend[Am]er
+As consequ[D]ências do am[G]or
 
-[G]Quero que o meu coração
-[Am]Seja tão cheio de [D]paz
-[D7]Que não se sinta ca[Am]paz
-De sentir ódio ou ran[G]cor.
-[G7]Quero que a minha o[C]ração
-[D]Possa me amadure[G]cer
-[Em]Leve-me a compreen[Am]der
-[D]As conseqüências do a[G]mor`
+REFRÃO
+[G7]Eis o que eu venho te d[C]ar
+[D]Eis o que eu ponho no alt[G]ar [D/F#]
+T[Em]oma senhor que ele é t[Am]eu
+M[D]eu coração não é m[F]eu [G7]
+[G/D]Eis o que eu v[G7]enho te d[C]ar
+[D7]Eis o que eu ponho no alt[G]ar [D/F#]
+T[Em]oma senhor que ele é t[Am]eu  [D]
+M[Am]eu coraç[D]ão não é m[G]eu [G/B]
+[G/D]Eis o que eu v[G7]enho te d[C]ar
+[D7]Eis o que eu ponho no alt[G]ar [D/F#]
+T[Em]oma senhor que ele é t[Am]eu  [D]
+M[Am]eu coraç[D]ão não é m[G]eu`
 },
 {
   dia: "sabado", ordem: 4, numero: 10, pagina: 10,
   titulo: "Sempre Encontrando", tom: "G", tomObs: "violão",
   corpo: `
-[G]Sempre encontrando, sempre encon[D7]trando
-Sempre encon[Em]trando nosso ir[G]mão
-
-Sempre encon[Am]trando [D7]
-Sempre encontrando nosso ir[G]mão
-
-[G7]Viva a nossa bela u[C]nião
-[D7]Viva a nossa bela u[G]nião
-[Em]Viva a nossa bela u[Am]nião
-[D7]Sempre encontrando nosso ir[G]mão`
+[G]Sempre encontrando, Sempre encontrando
+[D7]Sempre encontra[G]ndo nosso irmão
+[Em]Sempre encontra[Am]ndo, [D7]sempre encontran[G]do nosso irmão
+V[G7]iva a nossa be[C]la união
+[D7]Viva a nossa be[G]la união
+[Em]Viva a nossa [Am]bela união
+[D7]Sempre encontran[G]do nosso irmão`
 },
 {
   dia: "sabado", ordem: 5, numero: 11, pagina: 10,
@@ -179,72 +192,130 @@ DEPOIS
   dia: "sabado", ordem: 6, numero: 13, pagina: 12,
   titulo: "És Água Viva", tom: "A", tomObs: "violão",
   corpo: `
-Eu te peço desta [A]água que tu tens
-És água [Bm]viva meu Se[E7]nhor
-Tenho sede, tenho [A]fome de amor
-E acredito nesta [Bm]fonte de onde [A]vens
-
-Vens de Deus, estás em [E]Deus, também és [A]Deus,
-E Deus contigo [Bm]faz um [E]só
-Eu, porém, que vim da [A]terra e volto ao pó
-Quero viver eterna[Bm]mente ao lado [A]Teu
+Eu te p[A]eço desta
+Água que tu tens!
+É água viva
+Meu Senh[E]or
+Tenho sede e tenho
+Fome de amor
+E acred[E7]ito nesta
+Fonte de onde v[A]ens
+Vens de D[A]eus, estás
+Em Deus, também és Deus
+E Deus contigo faz um s[E]ó
+Eu, porém, que vim
+Da terra e volto ao pó
+Quero viver eternamente
+Ao lado t[A]eu
 
 REFRÃO
-[D]És água [E]viva, és [A]vida no[Bm]va
-[D]E todo dia me ba[E]tizas outra [A]vez
-[Bm]Me fazes renas[E]cer, me fazes revi[A]ver
-E eu quero água desta [Bm]fonte de onde [A]vens.`
+És água v[E]iva
+És vida n[A]ova
+E todo d[E]ia me
+Batizas outra v[A]ez
+Me fazes r[E]enascer
+Me fazes r[A]eviver
+Eu quero [E]água desta
+Fonte de onde v[A]ens
+És água v[E]iva
+És vida n[A]ova
+E todo d[E]ia me
+Batizas outra v[A]ez
+Me fazes r[E]enascer
+Me fazes r[A]eviver
+Eu quero [E]água desta
+Fonte de onde v[A]ens
+Eu te p[A]eço desta
+Água que tu tens!
+É água viva
+Meu Senh[E]or
+Tenho sede e tenho
+Fome de amor
+E acred[E7]ito nesta
+Fonte de onde v[A]ens
+Vens de D[A]eus, estás
+Em Deus, também és Deus
+E Deus contigo faz um s[E]ó
+Eu, porém, que vim
+Da terra e volto ao pó
+Quero viver eternamente
+Ao lado t[A]eu
+
+REFRÃO
+És água v[E]iva
+És vida n[A]ova
+E todo d[E]ia me
+Batizas outra v[A]ez
+Me fazes r[E]enascer
+Me fazes r[A]eviver
+Eu quero [E]água desta
+Fonte de onde v[A]ens
+Eu quero [E]água desta
+Fonte de onde v[A]ens
+Eu quero [E]água desta
+Fonte de onde v[A]ens`
 },
 {
   dia: "sabado", ordem: 7, numero: 15, pagina: 14,
   titulo: "Eu Quero um Rio", tom: "Em",
   corpo: `
-[Em]Existe um poço, no meio do de[A7]serto [D] [Bm]
-[Em]O povo passa [A7]perto, da sede a recla[D]mar [D7]
-
-REFRÃO
-[G]Eu quero um [A7]rio de água viva
-[F#m]Eu quero um [Bm]sopro de esperança
-[Em]Minha 'alma [A7]segue
-E não [D]cansa, de cami[D7]nhar (bis)
-
-[Em]Se tu soubesse quem pode dar-te a [A7]vida [D] [Bm]
-[Em]Seria dissol[A7]vida a mágoa mais cru[D]el [D7]
-
-REFRÃO
-[G]Jesus é a [A7]vida, vencendo toda a morte
-[F#m]Mudando a [Bm]nossa sorte, livrando-[Em]nos do [A7]mal [D]`
+[E]Existe um p[F#m]oço[B]       n[B7]o meio do d[E]eserto[C#m]
+O povo passa p[F#m]erto  [B7]    da sede a reclam[E]ar  [E7]
+Eu quero um r[A]io de água viva[B7]
+Eu quero um s[G#m]opro de esperança[C#m]
+Minha alma s[F#m]egue e não se cans[B7]a
+De caminh[E]ar  [E7]
+[E]Se tu soube[F#m]sse[B]s    Q[B7]uem pode dar-te [E]a vid[C#m]a
+Seria dissolvi[F#m]da  A [B7]mágoa mais cru[E]el  [E7]
+[E]Jesus é a v[F#m]ida[B]       [B7]    Vencendo[E] toda [C#m]morte
+Mudando a nossa [F#m]sorte [B7]   Livrando-nos do[E] mal[E7]`
 },
 {
   dia: "sabado", ordem: 8, numero: 16, pagina: 15,
   titulo: "Utopia", tom: "G", tomObs: "sugerido",
   corpo: `
-[G]Das muitas coisas, do meu [C]tempo de criança
-[G]Guardo vivo na lem[D]brança, o aconchego do meu [G]lar
-No fim da tarde, quando [C]tudo se aquietava
-[G]A família se a[D]juntava, lá no alpendre a conver[G]sar
-Meus pais não tinham, nem es[C]cola e nem dinheiro
-[G]Todo o dia o ano in[D]teiro, trabalhavam sem pa[G]rar
-Faltava tudo mas a [C]gente nem ligava
-[G]O importante não fal[D]tava seu sorriso e seu o[G]lhar
-
-[G]Eu, tantas vezes, vi meu [C]pai chegar cansado
-[G]Mas aquilo era sa[D]grado, um por um ele afa[G]gava
-E perguntava quem fi[C]zera estrepolia
-[G]E a mamãe nos defen[D]dia e tudo aos poucos se aje[G]itava
-O sol se punha e a vi[C]ola alguém trazia
-[G]Todo mundo então pe[D]dia, pro papai cantar pra [G]gente
-Desafinado, meio [C]rouco e voz cansada
-[G]Ele cantava mil to[D]adas, seu olhar no sol po[G]ente
-
-[G]Correu o tempo e hoje eu [C]vejo a maravilha
-[G]De se ter uma fa[D]mília, quando tantos não a [G]têm
-Agora falam do des[C]quite e do divórcio
-[G]O amor virou con[D]sórcio, compromisso de nin[G]guém
-Há tantos filhos que bem [C]mais do que um palácio
-[G]Gostariam de um a[D]braço e do carinho entre seus [G]pais
-Se os pais se amassem, o di[C]vórcio não viria
-[G]Chamem a isso de u[D]topia, eu a isso chamo [G]PAZ`
+Das muitas c[G]oisas
+Do meu t[D7]empo de cri[G]ança
+Guardo v[D7]ivo na lembr[G]ança
+O aconch[G7]ego do meu l[C]ar
+No fim da t[Am]arde
+Quando t[D7]udo se aquiet[Am]ava
+A fam[D7]ília se aj[Am]untava
+Lá no alp[D7]endre a convers[G]ar [D7]
+Meus pais não t[G]inham
+Nem esc[D]ola e nem dinh[G]eiro
+Todo o d[D]ia o ano int[G]eiro
+Trabalh[G7]avam sem par[C]ar
+Faltava tudo mas a gente nem lig[G]ava
+O import[Em]ante não falt[Am]ava
+Seu sorr[D7]iso e seu olh[G]ar
+Eu tantas v[G]ezes
+Vi meu p[D7]ai chegar cans[G]ado
+Mas aqu[D7]ilo era sagr[G]ado
+Um por [G7]um ele afag[C]ava
+E pergunt[Am]ava quem fiz[D7]era estripol[Am]ia
+E mam[D7]ãe nos defend[Am]ia
+E tudo aos p[D7]oucos se ajeit[G]ava [D7]
+O sol se p[G]unha, a vi[D7]ola alguém traz[G]ia
+Todo m[D7]undo então ped[G]ia
+Pro pap[G7]ai cantar com a g[C]ente
+Desafinado meio rouco voz cans[G]ada
+Ele cant[Em]ava mil to[Am]adas
+Seu olh[D7]ar ao sol po[G]ente [D7]
+Correu o t[G]empo
+E hoje eu v[D7]ejo a marav[G]ilha
+De se t[D7]er uma fam[G]ília
+Quando t[G7]antos não a t[C]êm
+Agora f[Am]alam do desqu[D7]ite do div[Am]órcio
+O am[D7]or virou cons[Am]órcio
+Comprom[D7]isso de ningu[G]ém [D7]
+Há tantos f[G]ilhos
+Que bem m[D7]ais do que um pal[G]ácio
+Gostar[D7]iam de um abr[G]aço
+E do car[G7]inho entre seus p[C]ais
+Se os pais amassem o divórcio não vir[Bm]ia
+Chame a [Em]isso de Utop[Am]ia
+Eu a [D7]isso chamo p[G]az`
 },
 {
   dia: "sabado", ordem: 9, numero: 17, pagina: 16,
@@ -274,32 +345,70 @@ Se os pais se amassem, o di[C]vórcio não viria
   dia: "sabado", ordem: 10, numero: 18, pagina: 17,
   titulo: "Salmo 22", tom: "D", tomObs: "teclado",
   corpo: `
-[D]Pelos prados e cam[Bm]pinas
-[G]Verde[A]jantes eu [D]vou
-[F#]É o Senhor que me [G]leva a descan[Em7]sar [A]
-[D]Junto às fontes de águas [Bm]puras
-[G]Repou[A]santes eu [D]vou
-[F#]Minhas forças o Se[G]nhor vai ani[Em7]mar [A]
+Pelos pr[D]ados e camp[F#m7(11)]inas
+Verdej[G]antes eu v[D]ou
+É o Senh[F#m7(11)]or que me l[G]eva [Em7]
+A descans[A4]ar  [A]
+Junto às f[D]ontes de águas p[F#m7(11)]uras
+Repous[G]antes eu v[D]ou
+Minhas f[F#m7(11)]orças o Senh[G]or [Em7]
+Vai anim[A4]ar  [A]
 
 REFRÃO
-[G]Tu és, Se[A]nhor / o meu Pas[F#m]tor [Bm7]
-[Em7]Por isso nada em minha [A]vida falta[D]rá (bis)
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[Am7]á    [D]
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[G]á  [D]   [G/D]
+Nos cam[D7M]inhos mais segur[F#m7(11)]os
+Junto D[G]ele eu v[D]ou
+E pra s[F#m7(11)]empre o Seu n[G]ome [Em7]
+Eu honrar[A4]ei  [A]   [A/C#]
+Se eu enc[D]ontro mil ab[F#m7(11)]ismos
+Nos cam[G]inhos eu v[D]ou
+Segur[F#m7(11)]ança sempre t[G]enho
+Em Suas m[A6]ãos [Am7]     [D4]
 
-[D]Nos caminhos mais se[Bm]guros, junto dele eu [G]vou [A] [D]
-[F#]E pra sempre o seu [G]nome eu honra[Em7]rei [A]
-[D]Se eu encontro mil a[Bm]bismos, nos caminhos, eu [G]vou [A] [D]
-[F#]Segurança sempre [G]tenho em Suas [Em7]mãos [A]
+REFRÃO
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[Am7]á    [D]
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[G]á  [D]   [G/D]
+Num banqu[D]ete em Sua c[F#m7(11)]asa
+Muito al[G]egre eu v[D]ou
+Um lug[F#m7(11)]ar em Sua m[G]esa [Em7]
+Me prepa[A4]rou [A]
+Ele [D]unge minha fr[F#m7(11)]onte
+E me f[G]az ser fel[D]iz
+E transb[F#m7]orda a minha t[G]aça [Em7]
+Em Seu am[Am7]or   [D4]
 
-[D]Ao banquete em Sua [Bm]casa, muito alegre eu [G]vou [A] [D]
-[F#]Um lugar em Sua [G]mesa me prepa[Em7]rou [A]
-[D]Ele unge minha [Bm]fronte e me faz ser fe[G]liz [A] [D]
-[F#]E transborda a minha [G]taça em Seu a[Em7]mor [A]
+REFRÃO
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[Am7]á    [D7(4)]
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[G]á  [Gm]
+Bem a fr[D]ente do inim[F#m7(11)]igo
+Confi[G]ante eu v[D]ou
+Tenho s[F#m7(11)]empre o Senh[G]or [Em7]
+Junto de m[A4]im  [A]
+Seu caj[D]ado me prot[F#m7(11)]ege
+E eu jam[G]ais temer[D]ei
+Sempre j[F#m7(11)]unto do Senh[G]or [Em7]
+Eu estar[Am7]ei   [D4]
 
-[D]Com alegria e espe[Bm]rança
-[G]Cami[A]nhando eu [D]vou
-[F#]Minha vida está [G]sempre em suas [Em7]mãos [A]
-[D]E na casa do Se[Bm]nhor eu irei habi[G]tar [A] [D]
-[F#]E este canto para [G]sempre irei can[Em7]tar [A]`
+REFRÃO
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[Am7]á    [D7(4)]
+[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada
+Em minha v[A]ida faltar[G]á  [Gm]    [D]`
 },
 {
   dia: "sabado", ordem: 11, numero: 20, pagina: 19,
@@ -325,45 +434,90 @@ Faz um [Em]bom Cris[A7]tão [D]`
   titulo: "Imaculada Maria do Povo", tom: "G", tomObs: "sugerido",
   corpo: `
 REFRÃO
-[G]Imacu[Em]lada / Maria de [C]Deus [D]
-[G]Coração pobre aco[Em]lhendo Je[Am]sus [D]
-[G]Imacu[Em]lada / Maria do [C]Povo [D]
-[G]Mãe dos aflitos que es[Am]tão junto à [D]cruz [G]
+[G]Imaculada Maria de [C]Deus
+Coração p[D]obre, acolh[C]endo Jes[G]us
+Imaculada Maria do p[C]ovo
+Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz
+Um coração que era sim para a v[C]ida
+Um coraç[D]ão que era sim para o irm[G]ão
+Um coraç[C]ão que era sim para D[G]eus
+R[E7]eino de D[Am7]eus renova[D]ndo este chã[G]o
 
-[G]Um coração que era [C]SIM para a [G]vida
-[G]Um coração que era [C]SIM para o ir[D]mão
-[G]Um coração que era [C]SIM para [G]Deus
-[Em]Reino de Deus reno[Am]vando este [D]chão [G]
+REFRÃO
+Imaculada Maria de D[C]eus
+Coração p[D]obre, acolh[C]endo Jes[G]us
+Imaculada Maria do p[C]ovo
+Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz
+Olhos abertos pra sede do p[C]ovo
+Passo bem f[D]irme que o medo dest[G]erra
+Mãos estend[C]idas que os tronos ren[G]egam
+R[E7]eino de D[Am7]eus que reno[D7]va esta te[G]rra
 
-[G]Olhos abertos [C]pra sede do [G]povo
-[G]Passo bem firme que o [C]medo des[D]terra
-[G]Mãos estendidas que os [C]tronos rene[G]gam
-[Em]Reino de Deus que re[Am]nova esta [D]terra [G]
+REFRÃO
+Imaculada Maria de D[C]eus
+Coração p[D]obre, acolh[C]endo Jes[G]us
+Imaculada Maria do p[C]ovo
+Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz
+Faça-se, ó Pai, vossa plena vont[C]ade
+Que os nossos p[D]assos se tornem mem[G]ória
+Do amor fi[C]el que Maria ger[G]ou
+R[E7]eino de D[Am7]eus atua[D7]ndo na Histó[G]ria
 
-[G]Faça-se, ó Pai [C]Vossa plena von[G]tade
-[G]Que os nossos passos se [C]tornem me[D]mória
-[G]Do amor fiel que [C]Maria ge[G]rou
-[Em]Reino de Deus atu[Am]ando na his[D]tória [G]`
+REFRÃO
+Imaculada Maria de D[C]eus
+Coração p[D]obre, acolh[C]endo Jes[G]us
+Imaculada Maria do p[C]ovo
+Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz`
 },
 {
   dia: "sabado", ordem: 13, numero: 25, pagina: 24,
   titulo: "Porque Ele Vive", tom: "G", tomObs: "sugerido",
   corpo: `
-[G]Deus enviou / seu [C]Filho a[G]mado
-Para morrer / no meu lu[D]gar
-[G]Na cruz pagou / por [C]meus pe[G]cados
-Mas o se[C]pulcro, va[G]zio es[D]tá, porque Ele [G]vive!
+    ↓   ↓ ↑   ↓     ↑     ↓     ↑   ↓
+Deus enviou
+Seu filho am[C]ado [C9]    [C]
+Para morr[G]er [Em]
+No meu lug[F]ar [D]
+Na cruz pag[G]ou [G7]
+Por meus pec[C]ados [Cm]
+Mas o sep[G]ulcro vaz[E7]io est[Am]á
+Porque ele vive
 
 REFRÃO
-[G]Porque Ele [C]vive, eu posso [G]crer no amanhã
-[G]Porque Ele [C]vive, temor não [D]há
-[G]Mas eu bem [C]sei, que o meu fu[G]turo
-Está nas [C]mãos do meu Je[G]sus, [D]que vivo es[G]tá
+Porque Ele vive
+Eu posso crer no [C]amanhã [C9]    [C]
+Porque Ele v[G]ive
+[Em]   Temor não h[F]á  [D/F#]
+Mas eu bem s[G]ei [G7]
+Que o meu fut[C]uro [Cm]
+Está nas m[G]ãos do m[E7]eu Jes[Am]us
+Que vivo está
+Um dia eu vou
+Cruzar os r[C]ios
+E verei ent[G]ão
+[Em]   Um Céu de L[F]uz [D]
+E verei que l[G]á  [G7]
+Em plena gl[C]ória [Cm]
+Vitori[G]oso, v[E7]ive e r[Am]eina
+O meu Jesus
 
-[G]Um dia vou / cru[C]zar os [G]rios,
-E verei então / um céu de [D]luz
-[G]E verei lá / em [C]plena gló[G]ria
-Vitori[C]oso, vive e [G]reina o [D]meu Je[G]sus!`
+REFRÃO
+Porque Ele vive
+Eu posso crer no [C]amanhã [C9]    [C]
+Porque Ele v[G]ive
+[Em]   Temor não h[F]á  [D/F#]
+Mas eu bem s[G]ei [G7]
+Que o meu fut[C]uro [Cm]
+Está nas m[G]ãos do m[E7]eu Jes[Am]us
+Que vivo está
+Porque Ele vive
+Eu posso crer no amanhã
+Porque Ele vive
+Temor não h[F]á  [D/F#]
+Mas eu bem s[G]ei [G7]
+Que o meu fut[C]uro [Cm]
+Está nas m[G]ãos do m[E7]eu Jes[Am]us
+Que v[D]ivo est[G]á`
 },
 {
   dia: "sabado", ordem: 14, numero: 4, pagina: 5,
@@ -404,90 +558,122 @@ A[E]lô, bom dia, ir[B7]mão... [E]`
   dia: "domingo", ordem: 2, numero: 28, pagina: 26,
   titulo: "Eu Quero Apenas", tom: "A",
   corpo: `
-[D]Eu quero a[E]penas olhar os [A]campos
-[D]Eu quero a[E]penas cantar meu [A]canto
-[F]Eu só não [Bm]quero é cantar so[E]zinho [A]
-[F]Eu quero um [Bm]coro de passa[E]rinhos [A]
-
-REFRÃO
-[D]Quero le[E]var o meu canto a[A]migo
-[F]A qualquer a[Bm]migo que preci[E]sar [A]
-[D]Eu quero [E]ter um milhão de a[A]migos
-[F]E bem mais [Bm]forte poder can[E]tar [A]
-
-[D]Eu quero a[E]penas um vento [A]forte
-[D]Levar meu [E]barco no rumo [A]norte
-[F]E no ca[Bm]minho o que eu pes[E]car [A]
-[F]Quero divi[Bm]dir quando lá che[E]gar [A]
-
-[D]Eu quero [E]crer na paz do fu[A]turo
-[D]Eu quero [E]ter um quintal sem [A]muro
-[F]Quero meu [Bm]filho pisando [E]firme [A]
-[F]Cantando [Bm]alto, sorrindo [E]livre [A]
-
-[D]Eu quero o a[E]mor decidindo a [A]vida
-[D]Sentir a [E]força da mão a[A]miga
-[F]O meu ir[Bm]mão com sorriso a[E]berto [A]
-[F]Se ele [Bm]chora quero estar por [E]perto [A]
-
-[D]Venha co[E]migo olhar os [A]campos
-[D]Cante co[E]migo também meu [A]canto
-[F]Eu só não [Bm]quero cantar so[E]zinho [A]
-[F]Eu quero um [Bm]coro de passa[E]rinho [A]`
+Eu quero ap[Bm]enas olh[E7]ar os c[A]ampos, e[F#m]u quero apen[Bm]as cantar[E7] meu can[A]to
+Eu só não qu[Bm]ero cant[E7]ar soz[A]inho, eu q[F#m]uero um cor[Bm]o de pa[E7]ssari[A]nh[A7]os
+Quero lev[D]ar o meu ca[E7]nto ami[C#m]go a qua[F#m]lquer ami[Bm]go que p[E7]reci[A]sa[A7]r
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e [F#m]bem mais f[Bm]orte pod[E7]er cant[A]ar
+Eu quero ap[Bm]enas um v[E7]ento f[A]orte, l[F#m]evar meu bar[Bm]co no rum[E7]o nor[A]te
+E no cam[Bm]inho o que [E7]eu pesc[A]ar quer[F#m]o dividir[Bm] quando [E7]lá ch[A]eg[A7]ar
+Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais f[Bm]orte pod[E7]er cant[A]ar
+Eu quero cr[Bm]er na paz d[E7]o futur[A]o, [F#m]eu quero ter[Bm] um quintal[E7] sem mur[A]o
+Quero meu f[Bm]ilho pis[E7]ando f[A]irme, ca[F#m]ntando a[Bm]lto, sorri[E7]ndo li[A]vr[A7]e
+Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais f[Bm]orte pod[E7]er cant[A]ar
+Eu quero am[Bm]or decid[E7]indo a v[A]ida, [F#m]sentir a fo[Bm]rça da m[E7]ão am[A]iga
+O meu irm[Bm]ão com sorr[E7]iso ab[A]erto, [F#m]se ele cho[Bm]rar quero es[E7]tar por [A]pe[A7]rto
+Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
+Eu quero t[D]er um mi[E7]lhão de ami[C#m]gos e b[F#m]em mais f[Bm]orte pod[E7]er cant[A]ar
+Venha com[Bm]igo olh[E7]ar os c[A]ampos, c[F#m]ante comig[Bm]o tamb[E7]ém meu c[A]anto
+Eu só não qu[Bm]ero cant[E7]ar soz[A]inho, e[F#m]u quero um cor[Bm]o de pas[E7]sarin[A]ho[A7]s
+Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
+Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e [F#m]bem mais [Bm]forte po[E7]der can[A]tar`
 },
 {
   dia: "domingo", ordem: 3, numero: 30, pagina: 28,
   titulo: "Oração de São Francisco", tom: "Bm",
   corpo: `
-[Bm]Senhor, fazei-me um instru[F#m]mento de vossa [Bm]paz
-[Bm]Onde houver ódio, que eu [Em]leve o a[F#m]mor
-[Bm]Onde houver ofensa, que eu [Em]leve o per[F#m]dão
-[Bm]Onde houver discórdia, que eu [Em]leve a uni[F#m]ão
-[Bm]Onde houver dúvida, que eu [F#m]leve a [Bm]fé
+Senh[Bm]or, faz[D]ei-me
+Instrum[Em]ento de vossa p[Bm]az
+Onde houver [Em]ódio
+Que eu leve o am[Bm]or
+Onde houver of[Em]ensa
+Que eu leve o perd[Bm]ão
+Onde houver disc[D]órdia
+Que eu l[A/C#]eve a uni[Bm]ão
+Onde houver d[D]úvidas
+Que eu l[Em]eve a f[Bm]é
+Onde houver [Em]erros
+Que eu leve a verd[Bm]ade
+Onde houver desesp[Em]ero
+Que eu leve a esper[Bm]ança
+Onde houver trist[D]eza
+Que eu l[F#m]eve a alegr[Bm]ia
+Onde houver tr[D]evas, que eu l[Em]eve a l[Bm]uz
 
-[Bm]Onde houver erro, que eu [Em]leve a ver[F#m]dade
-[Bm]Onde houver desespero, que eu [Em]leve a espe[F#m]rança
-[Bm]Onde houver tristeza, que eu [Em]leve a ale[F#m]gria
-[Bm]Onde houver trevas, que eu [F#m]leve a [Bm]luz
+REFRÃO
+Ó M[Bm]estre, faz[D]ei
+Que eu proc[Bm]ure m[Em]ais
+Consol[D]ar que s[F#7/C#]er consol[Bm]ado
+Compreend[Em]er que s[D]er compreend[A/C#]ido
+Am[D]ar [F#7]   que ser am[Bm]ado
+Pois é d[F#7]ando que se rec[Bm]ebe
+É perdo[Em]ando que se[Em/D] é perdo[A/C#]ado
+E é morr[D]endo qu[Em]e se v[Bm]ive
+Para a v[Em]ida et[F#7]er_n[Bm]a
 
-[D]Ó Mestre, fazei que eu pro[A]cure mais
-[Bm]Consolar que ser conso[F#m]lado
-[D]Compreender que ser compreen[A]dido
-[Bm]Amar, que ser a[F#m]mado
-[D]Pois, é dando que se re[A]cebe
-[Bm]É perdoando que se é per[F#m]doado
-[G]E é morrendo que se [D]vive
-[Em]Para a [F#m]vida e[Bm]terna`
+REFRÃO
+Ó M[Bm]estre, faz[D]ei
+Que eu proc[Bm]ure m[Em]ais
+Consol[D]ar que s[F#7/C#]er consol[Bm]ado
+Compreend[Em]er que s[D]er compreend[A/C#]ido
+Am[D]ar [F#7]   que ser am[Bm]ado
+Pois é d[F#7]ando que se rec[Bm]ebe
+É perdo[Em]ando que se [Em/D]é perdo[A/C#]ado
+E é morr[D]endo qu[Em]e se v[Bm]ive
+Para a v[Em]ida et[F#7]er_n[Bm]a`
 },
 {
   dia: "domingo", ordem: 4, numero: 29, pagina: 27,
   titulo: "Salmo 145", tom: "G", tomObs: "sugerido",
   corpo: `
-[G]Por melhor que seja al[C]guém
-[G]Chega o dia em que há de fal[D]tar
-[G]Só o Deus vivo a pa[C]lavra mantém
-[G]E jamais Ele [D]há de fal[G]tar
-
-REFRÃO
-[C]Quero cantar ao Se[G]nhor
-[C]Sempre enquanto eu vi[D]ver
-[G]Hei de provar Seu a[C]mor
-[G]Seu valor e [D]Seu po[G]der
-
-[G]Nosso Deus põe-se do [C]lado
-[G]Dos famintos e injusti[D]çados
-[G]Dos pobres e o[C]primidos
-[G]Dos injusta[D]mente ven[G]cidos
-
-[G]Ele barra o caminho dos [C]maus
-[G]Que exploram sem compai[D]xão
-[G]Mas dá força ao [C]braço dos bons
-[G]Que sustenta o [D]peso do ir[G]mão
-
-[G]Este é o nosso [C]Deus
-[G]Seu poder permanece [D]sempre
-[G]Sua força é a [C]força da gente
-[G]Vamos todos lou[D]var nosso [G]Deus`
+Por melh[G]or que seja algu[Dm7]ém   [G]
+Chega o d[C]ia em que há de faltar [G]
+[G]Só o Deus vivo a palavra man[Em7]tém
+E jam[C]ais Ele há de fal[D7]har
+Q[G]uero cantar ao Senh[C]or
+[Am7]Sempre, enquanto eu vi[D7]ver
+[Bm7]Hei de provar Seu [Em7]amor, Seu v[Cm]alor
+E S[G]eu [D7]pod[G]er [D7]
+Q[G]uero cantar ao Senh[C]or
+Cantar ao Se[Am7]nhor
+Enquanto eu vi[D7]ver
+Enquanto eu [Bm7]viver
+Provar Seu[Em7] amor, Seu [Cm]valor
+E S[G]eu [D7]pod[G]er [D7]
+Nosso De[G]us põe-se do l[Dm7]ado  [G]
+Dos fam[C]intos e injustiça[G]dos
+[G]Dos pobres e opri[Em7]midos
+Dos inj[A]ustamente venci[D7]dos
+Q[G]uero cantar ao Senh[C]or
+[Am7]Sempre, enquanto eu vi[D7]ver
+[Bm7]Hei de provar Seu [Em7]amor, Seu v[Cm]alor
+E S[G]eu [D7]pod[G]er [D7]
+Q[G]uero cantar ao Senh[C]or
+Cantar ao Se[Am7]nhor
+Enquanto eu vi[D7]ver
+Enquanto eu [Bm7]viver
+Provar Seu[Em7] amor, Seu [Cm]valor
+E S[G]eu [D7]pod[G]er [D7]
+Q[G]uero cantar ao Senh[C]or
+Cantar ao Se[Am7]nhor
+Enquanto eu vi[D7]ver
+Enquanto eu [Bm7]viver
+Provar Seu[Em] amor, Seu va[Cm]lor
+E S[G]eu [C]   [D7]pod[G]er
+Ele barr[D#]a o caminho do[A#m7]s mau[D#]s
+Que ex[G#]ploram sem compai[D#]xão
+[D#]Mas dá força ao b[Cm7]raço dos bons
+Que sus[F]tentam o peso [A#7]do irmão
+Esse[D#] é o nosso D[A#m7]eus  [D#]
+Seu pod[G#]er permanece semp[D#]re
+[D#]Sua força é a for[Cm7]ça da gente
+Vamos t[F]odos louvar no[A#7]sso Deus`
 },
 {
   dia: "domingo", ordem: 5, numero: 20, pagina: 19,
@@ -530,48 +716,88 @@ DEPOIS
   dia: "domingo", ordem: 8, numero: 33, pagina: 31,
   titulo: "Para Ser Feliz", tom: "G", tomObs: "sugerido",
   corpo: `
-[G]Para ser fe[Em]liz / é preciso [C]ver [D]
-[G]Este céu a[Em]zul / e esta imensi[C]dão [D]
-[G]É fazer das tris[Em]tezas / rique[C]zas a [D]mais
-[G]E do [C]pranto uma can[D]ção [G]
-
-REFRÃO
-[C]Há um mundo bem me[G]lhor
-[C]Todo feito pra vo[D]cês
-[C]É um mundo de a[G]mor [Em]
-[Am]Que o [D]Cristo [G]fez
-
-[G]Cristo quer de [Em]mim / difundir seu a[C]mor [D]
-[G]Para constru[Em]ir / um mundo me[C]lhor [D]
-[G]E andar sem des[Em]canso / à procu[C]ra do [D]bem
-[G]E fazer meu ir[C]mão cres[D]cer [G]`
+P[G]ara ser feliz é prec[D7]iso ter
+Esse céu azul na im[G]ensidão
+É faz[G7]er da tristezas estr[C]elas a mais
+E do pr[D7]anto uma canç[G]ão
+Há um mundo b[D7]em melhor
+Todo feito pr[G]a você
+[G7]É um mundo p[C]equenino
+Que a ter[D7]nura f[G]ez
+Para ser feliz é prec[D7]iso amar
+E ver cada dia uma estr[G]ela a brilhar
+É dei[G7]xar que a ternura inv[C]ada teu ser
+Pra na p[D7]az de Deus viv[G]er
+Há um mundo b[D7]em melhor
+Todo feito p[G]ra você
+[G7]É um mundo p[C]equenino
+Que a ter[D7]nura f[G]ez`
 },
 {
   dia: "domingo", ordem: 9, numero: 34, pagina: 32,
   titulo: "Oração da Família", tom: "D", tomObs: "sugerido",
   corpo: `
-[D]Que nenhuma família co[G]mece em qualquer de re[A]pente
-[D]Que nenhuma família ter[G]mine por falta de a[A]mor
-[D]Que o casal seja um para o [G]outro de corpo e de [A]mente
-[D]E que nada no mundo se[G]pare um casal sonha[D]dor
+Que nenh[D]uma família comece
+Em qualquer de rep[A7]ente
+Que nenhuma família termine
+Por falta de am[D]or
+Que o casal seja um para o outro
+De corpo e de m[A7]ente
+E que nada no mundo separe
+Um casal sonhad[D]or
+Que nenhuma família
+Se abrigue debaixo da p[A7]onte
+Que ninguém interfira no lar
+E na vida dos d[D]ois
+Que ninguém os obrigue
+A viver sem nenhum horiz[A7]onte
+Que eles vivam do ontem
+Do hoje e em função de um dep[D]ois
+Que a família comece
+E termine sabendo onde vai
+E que o h[A7]omem carregue nos [A/C#]ombros
+A graça de um pai
+Que a mulher seja um céu de tern[D/F#]ura
+Aconchego e calor
+E que os f[D]ilhos conheçam
+A força que brota do amor
 
 REFRÃO
-[D]Que a família comece e ter[G]mine sabendo onde [A]vai
-[D]E que o homem carregue nos [G]ombros a graça de um [A]pai
-[D]Que a mulher seja um céu de ter[G]nura, aconchego e ca[A]lor
-[D]E que os filhos conheçam a [G]força que brota do a[D]mor
-[G]Abençoa, Se[A]nhor, as fa[D]mílias, a[Bm]mém
-[G]Abençoa, Se[A]nhor, a minha tam[D]bém (bis)
+Abençoa, Senhor, as famílias! am[A7]ém!
+Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
+Abençoa, Senhor, as famílias! am[A7]ém!
+Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
+Que mar[D]ido e mulher tenham força
+De amar sem med[A7]ida
+Que ninguém vá dormir sem pedir
+Ou sem dar seu perd[D]ão
+Que as crianças aprendam no colo
+O sentido da v[A7]ida
+Que a família celebre a partilha
+Do abraço e do p[D]ão
+Que marido e mulher não se traiam
+Nem traiam seus filh[A7]os
+Que o ciúme não mate
+A certeza do amor entre os d[D]ois
+Que no seu firmamento
+A estrela que tem maior br[A7]ilho
+Seja a firme esperança de um céu
+Aqui mesmo e dep[D]ois
+Que a família comece
+E termine sabendo onde vai
+E que o h[A7]omem carregue nos [A/C#]ombros
+A graça de um pai
+Que a mulher seja um céu de tern[D/F#]ura
+Aconchego e calor
+E que os f[D]ilhos conheçam
+A força que brota do amor
 
-[D]Que marido e mulher tenham [G]força de amar sem me[A]dida
-[D]Que ninguém vá dormir sem pe[G]dir ou sem dar seu per[A]dão
-[D]Que as crianças aprendam no [G]colo o sentido da [A]vida
-[D]Que a família celebre a par[G]tilha do abraço e do [D]pão
-
-[D]Que marido e mulher não se [G]traiam e nem traiam seus [A]filhos
-[D]Que o ciúme não mate a cer[G]teza do amor entre os [A]dois
-[D]Que no seu firmamento a es[G]trela que tem maior [A]brilho
-[D]Seja a firme esperança de um [G]céu aqui mesmo e de[D]pois`
+REFRÃO
+Abençoa, Senhor, as famílias! am[A7]ém!
+Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
+Abençoa, Senhor, as famílias! am[A7]ém!
+Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
+Abençoa, Senh[A7]or, a minha também`
 },
 
 {
