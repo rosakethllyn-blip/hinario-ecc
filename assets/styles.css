@@ -110,6 +110,12 @@ body {
 .musica-card .titulo { font-size: 16px; font-weight: 600; }
 .musica-card .meta { font-size: 12.5px; color: var(--text-soft); margin-top: 2px; }
 .musica-card .seta { color: var(--text-soft); font-size: 26px; line-height: 1; }
+.selo-editada {
+  align-self: flex-start; margin-top: 4px; font-size: 10.5px; font-weight: 700;
+  color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  padding: 1px 7px; border-radius: 20px; text-transform: uppercase; letter-spacing: .4px;
+}
 
 /* ---------- Rodapé ---------- */
 .rodape {
@@ -218,6 +224,7 @@ body.controles-ocultos .mv-controles {
   font-size: 15px;
 }
 .cifra.modo-fit { padding-bottom: 12px; }
+body.editando .cifra { padding-bottom: 100px; }  /* espaço p/ a barra da nota */
 .linha {
   display: flex; flex-wrap: wrap; align-items: flex-end;
   margin: 0 0 1px;
@@ -234,6 +241,68 @@ body.controles-ocultos .mv-controles {
   font-size: .8em; text-transform: uppercase;
   margin: .7em 0 .25em;
 }
+
+/* ---------- Editor de cifra ---------- */
+.editor-bar { display: none; border-top: 1px solid var(--border); background: var(--surface); }
+body.editando .editor-bar { display: block; }
+body.editando .mv-controles { display: none; }
+body.editando #btn-editar,
+body.editando #btn-toggle { display: none; }
+.editor-bar-inner {
+  max-width: 900px; margin: 0 auto; padding: 9px 12px;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.eb {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 10px; height: 38px; padding: 0 14px; cursor: pointer;
+  font-size: 14px; font-weight: 700; white-space: nowrap;
+}
+.eb-save { background: var(--accent); color: #fff; border-color: var(--accent); }
+.eb-cancel:hover { border-color: var(--brand); color: var(--brand); }
+.eb-restore { color: var(--text-soft); font-weight: 600; }
+.eb-hint { font-size: 11.5px; color: var(--text-soft); flex: 1; min-width: 140px; }
+.eb-hint b { color: var(--text); }
+
+/* botão do lápis destacado quando a música tem edição salva não é necessário aqui */
+#btn-editar { font-size: 17px; }
+
+/* linhas em modo edição: rolam na horizontal em vez de quebrar palavra */
+.linha.edit { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; }
+.linha.edit::-webkit-scrollbar { height: 0; }
+.cel { display: inline-flex; flex-direction: column; white-space: pre; }
+.cel .acorde.edit { min-height: 1.5em; display: flex; align-items: flex-end; gap: 2px; }
+.pill-acorde {
+  color: var(--chord); font-weight: 800; cursor: pointer;
+  padding: 0 3px; border-radius: 5px; border: 1px dashed transparent;
+  line-height: 1.25;
+}
+.pill-acorde:hover { border-color: var(--chord); }
+.pill-acorde.sel {
+  background: var(--accent); color: #fff; border-color: var(--accent); border-style: solid;
+}
+.linha.edit .texto {
+  cursor: text; border-bottom: 1px dotted transparent;
+}
+.linha.edit .texto:hover { border-bottom-color: var(--text-soft); }
+
+/* barra de ação da nota selecionada (fixa embaixo) */
+.sel-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+  display: none; align-items: center; gap: 8px;
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+  background: var(--surface); border-top: 1px solid var(--border);
+  box-shadow: 0 -6px 20px rgba(0,0,0,.14);
+}
+body.sel-ativa .sel-bar { display: flex; }
+.sel-bar .sel-label { font-size: 13px; color: var(--text-soft); font-weight: 700; }
+.sel-bar button {
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+  height: 44px; min-width: 48px; border-radius: 11px; cursor: pointer;
+  font-size: 18px; font-weight: 700; flex: 1;
+}
+.sel-bar button:active { transform: scale(.94); }
+.sel-bar button.perigo { color: #e5484d; }
+.sel-bar button.ok { background: var(--brand); color: #fff; border-color: var(--brand); flex: 0 0 auto; padding: 0 18px; }
 
 @media (max-width: 520px) {
   .titulo-app b { font-size: 15px; }

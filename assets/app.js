@@ -125,10 +125,70 @@
   var estado = {
     dia: "sexta",
     musicaAtual: null,
-    steps: 0 // semitons de transposição da música aberta
+    steps: 0, // semitons de transposição da música aberta
+    fit: true,
+    fontManual: 0,
+    editando: false,
+    modelo: null, // modelo de linhas em edição
+    sel: null     // {li, ci} acorde selecionado
   };
 
   var el = {};
+
+  /* ---------- Cifras editadas (salvas no aparelho) ---------- */
+  var STORE_CIFRAS = "hinario-cifras";
+  function songId(m) { return m.dia + ":" + m.ordem; }
+  function lerOverrides() {
+    try { return JSON.parse(localStorage.getItem(STORE_CIFRAS) || "{}") || {}; }
+    catch (e) { return {}; }
+  }
+  function salvarOverrides(o) {
+    try { localStorage.setItem(STORE_CIFRAS, JSON.stringify(o)); } catch (e) {}
+  }
+  function corpoEfetivo(m) {
+    var o = lerOverrides(); var id = songId(m);
+    return (o[id] != null) ? o[id] : m.corpo;
+  }
+  function temOverride(m) { return lerOverrides()[songId(m)] != null; }
+  function definirOverride(m, corpo) { var o = lerOverrides(); o[songId(m)] = corpo; salvarOverrides(o); }
+  function removerOverride(m) { var o = lerOverrides(); delete o[songId(m)]; salvarOverrides(o); }
+
+  /* ---------- Modelo da cifra (para edição) ---------- */
+  function parseLinhaLetra(linha) {
+    var text = "", chords = [], re = /\[([^\]]+)\]/g, last = 0, m;
+    while ((m = re.exec(linha)) !== null) {
+      text += linha.slice(last, m.index);
+      chords.push({ pos: text.length, chord: m[1] });
+      last = re.lastIndex;
+    }
+    text += linha.slice(last);
+    return { text: text, chords: chords };
+  }
+  function serializaLinhaLetra(l) {
+    var out = l.text;
+    var ch = l.chords.slice().sort(function (a, b) { return a.pos - b.pos; });
+    for (var i = ch.length - 1; i >= 0; i--) {
+      var p = Math.max(0, Math.min(l.text.length, ch[i].pos));
+      out = out.slice(0, p) + "[" + ch[i].chord + "]" + out.slice(p);
+    }
+    return out;
+  }
+  function construirModelo(corpo) {
+    var linhas = corpo.replace(/^\n+/, "").replace(/\n+$/, "").split("\n");
+    return linhas.map(function (linha) {
+      if (linha.trim() === "") return { tipo: "vazia" };
+      if (ehSecao(linha)) return { tipo: "secao", text: linha.trim() };
+      var p = parseLinhaLetra(linha);
+      return { tipo: "letra", text: p.text, chords: p.chords };
+    });
+  }
+  function serializaModelo(modelo) {
+    return modelo.map(function (l) {
+      if (l.tipo === "vazia") return "";
+      if (l.tipo === "secao") return l.text;
+      return serializaLinhaLetra(l);
+    }).join("\n");
+  }
 
   function musicasDoDia(dia) {
     return window.HINARIO
@@ -174,6 +234,12 @@
       meta.textContent = "Tom " + m.tom + (m.tomObs ? " · " + m.tomObs : "") + " · pág. " + m.pagina;
       info.appendChild(titulo);
       info.appendChild(meta);
+      if (temOverride(m)) {
+        var ed = document.createElement("span");
+        ed.className = "selo-editada";
+        ed.textContent = "editada";
+        info.appendChild(ed);
+      }
 
       var seta = document.createElement("span");
       seta.className = "seta";
@@ -221,13 +287,167 @@
       ? "tom original"
       : "original: " + tomBase + " (" + (estado.steps > 0 ? "+" : "") + estado.steps + ")";
     el.cifra.innerHTML = "";
-    el.cifra.appendChild(renderCorpo(m.corpo, estado.steps, useFlat));
+    if (estado.editando) { renderEditor(); return; }
+    el.cifra.appendChild(renderCorpo(corpoEfetivo(m), estado.steps, useFlat));
     // ajusta de forma síncrona (garante que a cifra sempre apareça),
     // e refina depois que o layout/fontes assentam
     ajustarFonte();
     requestAnimationFrame(function () {
       requestAnimationFrame(ajustarFonte);
     });
+  }
+
+  /* ---------- Editor de cifra ---------- */
+  function renderEditor() {
+    el.cifra.classList.remove("modo-fit");
+    el.cifra.style.visibility = "visible";
+    el.cifra.style.fontSize = "17px";
+    var frag = document.createDocumentFragment();
+    estado.modelo.forEach(function (l, li) {
+      if (l.tipo === "vazia") {
+        var v = document.createElement("div"); v.className = "linha-vazia"; frag.appendChild(v); return;
+      }
+      if (l.tipo === "secao") {
+        var s = document.createElement("div"); s.className = "secao"; s.textContent = l.text; frag.appendChild(s); return;
+      }
+      frag.appendChild(renderLinhaEditor(l, li));
+    });
+    el.cifra.innerHTML = "";
+    el.cifra.appendChild(frag);
+  }
+
+  function renderLinhaEditor(l, li) {
+    var cont = document.createElement("div");
+    cont.className = "linha edit";
+    var len = l.text.length;
+    var chords = l.chords.map(function (c, idx) {
+      return { idx: idx, pos: Math.max(0, Math.min(len, c.pos)), chord: c.chord };
+    }).sort(function (a, b) { return a.pos - b.pos; });
+
+    // monta grupos: cada acorde gruda no texto que vem depois dele (letra contínua)
+    var grupos = [];
+    if (chords.length === 0) {
+      grupos.push({ idx: -1, chord: null, start: 0, text: l.text });
+    } else {
+      if (chords[0].pos > 0) grupos.push({ idx: -1, chord: null, start: 0, text: l.text.slice(0, chords[0].pos) });
+      for (var i = 0; i < chords.length; i++) {
+        var start = chords[i].pos;
+        var end = (i + 1 < chords.length) ? chords[i + 1].pos : len;
+        grupos.push({ idx: chords[i].idx, chord: chords[i].chord, start: start, text: l.text.slice(start, end) });
+      }
+    }
+
+    grupos.forEach(function (g) {
+      var col = document.createElement("span");
+      col.className = "trecho edit";
+      var ac = document.createElement("span");
+      ac.className = "acorde edit";
+      if (g.chord != null) {
+        var pill = document.createElement("span");
+        pill.className = "pill-acorde" + (estado.sel && estado.sel.li === li && estado.sel.ci === g.idx ? " sel" : "");
+        pill.textContent = g.chord;
+        pill.onclick = function (ev) { ev.stopPropagation(); selecionarAcorde(li, g.idx); };
+        ac.appendChild(pill);
+      } else {
+        ac.innerHTML = "&nbsp;";
+      }
+      var tx = document.createElement("span");
+      tx.className = "texto";
+      tx.textContent = g.text || " ";
+      tx.onclick = function (ev) {
+        ev.stopPropagation();
+        var seg = g.text || "";
+        var rect = tx.getBoundingClientRect();
+        var off = 0;
+        if (seg.length > 0 && rect.width > 0) {
+          var rel = ev.clientX - rect.left;
+          off = Math.max(0, Math.min(seg.length, Math.round(rel / (rect.width / seg.length))));
+        }
+        adicionarAcordeEm(li, g.start + off);
+      };
+      col.appendChild(ac); col.appendChild(tx);
+      cont.appendChild(col);
+    });
+    return cont;
+  }
+
+  function selecionarAcorde(li, ci) {
+    estado.sel = { li: li, ci: ci };
+    renderEditor();
+    document.body.classList.add("sel-ativa");
+    var pill = el.cifra.querySelector(".pill-acorde.sel");
+    if (pill && pill.scrollIntoView) pill.scrollIntoView({ block: "nearest", inline: "center" });
+  }
+  function acordeSel() {
+    if (!estado.sel) return null;
+    var l = estado.modelo[estado.sel.li];
+    if (!l || !l.chords[estado.sel.ci]) return null;
+    return { l: l, c: l.chords[estado.sel.ci] };
+  }
+  function moverAcorde(delta) {
+    var s = acordeSel(); if (!s) return;
+    s.c.pos = Math.max(0, Math.min(s.l.text.length, s.c.pos + delta));
+    marcarEditado(); renderEditor();
+  }
+  function editarAcordeTexto() {
+    var s = acordeSel(); if (!s) return;
+    var novo = window.prompt("Trocar a nota (acorde):", s.c.chord);
+    if (novo == null) return;
+    novo = novo.trim();
+    if (novo) { s.c.chord = novo; marcarEditado(); renderEditor(); }
+  }
+  function apagarAcorde() {
+    var s = acordeSel(); if (!s) return;
+    s.l.chords.splice(estado.sel.ci, 1);
+    estado.sel = null;
+    document.body.classList.remove("sel-ativa");
+    marcarEditado(); renderEditor();
+  }
+  function adicionarAcordeEm(li, pos) {
+    var novo = window.prompt("Nova nota (acorde) neste lugar:", "");
+    if (novo == null) return;
+    novo = novo.trim();
+    if (!novo) return;
+    var l = estado.modelo[li];
+    l.chords.push({ pos: pos, chord: novo });
+    estado.sel = { li: li, ci: l.chords.length - 1 };
+    marcarEditado();
+    renderEditor();
+    document.body.classList.add("sel-ativa");
+  }
+  function marcarEditado() { estado.editouAlgo = true; }
+
+  function entrarEdicao() {
+    if (!estado.musicaAtual) return;
+    estado.editando = true;
+    estado.editouAlgo = false;
+    estado.steps = 0;
+    estado.sel = null;
+    estado.modelo = construirModelo(corpoEfetivo(estado.musicaAtual));
+    document.body.classList.add("editando");
+    document.body.classList.remove("sel-ativa");
+    atualizarCifra();
+  }
+  function sairEdicao(salvar) {
+    if (salvar && estado.musicaAtual) {
+      definirOverride(estado.musicaAtual, serializaModelo(estado.modelo));
+    }
+    estado.editando = false;
+    estado.sel = null;
+    document.body.classList.remove("editando");
+    document.body.classList.remove("sel-ativa");
+    atualizarCifra();
+    renderLista();
+  }
+  function restaurarOriginal() {
+    if (!estado.musicaAtual) return;
+    if (!window.confirm("Voltar a cifra desta música ao original? Isso apaga as suas edições dela.")) return;
+    removerOverride(estado.musicaAtual);
+    estado.modelo = construirModelo(estado.musicaAtual.corpo);
+    estado.sel = null;
+    estado.editouAlgo = true;
+    document.body.classList.remove("sel-ativa");
+    renderEditor();
   }
 
   /* Encaixa a música inteira na tela reduzindo a fonte automaticamente */
@@ -276,7 +496,9 @@
   }
 
   function fecharMusica() {
+    if (estado.editando) { sairEdicao(false); }
     document.body.classList.remove("vendo-musica");
+    document.body.classList.remove("sel-ativa");
     estado.musicaAtual = null;
   }
 
@@ -323,6 +545,19 @@
         document.body.classList.add("controles-ocultos");
       }
     } catch (e) {}
+    // ---- Editor ----
+    document.getElementById("btn-editar").onclick = entrarEdicao;
+    document.getElementById("btn-salvar").onclick = function () { sairEdicao(true); };
+    document.getElementById("btn-cancelar").onclick = function () { sairEdicao(false); };
+    document.getElementById("btn-restaurar").onclick = restaurarOriginal;
+    document.getElementById("sel-esq").onclick = function () { moverAcorde(-1); };
+    document.getElementById("sel-dir").onclick = function () { moverAcorde(1); };
+    document.getElementById("sel-editar").onclick = editarAcordeTexto;
+    document.getElementById("sel-apagar").onclick = apagarAcorde;
+    document.getElementById("sel-ok").onclick = function () {
+      estado.sel = null; document.body.classList.remove("sel-ativa"); renderEditor();
+    };
+
     document.getElementById("btn-tema").onclick = function () {
       var atual = document.documentElement.getAttribute("data-theme");
       var novo = atual === "dark" ? "light" : "dark";

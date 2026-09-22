@@ -46,6 +46,7 @@
             <span class="pill" id="mv-obs" style="display:none"></span>
           </div>
         </div>
+        <button class="mv-toggle" id="btn-editar" title="Editar cifra" aria-label="Editar cifra">&#9998;</button>
         <button class="mv-toggle" id="btn-toggle" title="Mostrar/ocultar controles" aria-label="Mostrar ou ocultar controles">
           <span class="chev">&#9662;</span>
         </button>
@@ -65,9 +66,27 @@
           <button class="btn-fit" id="btn-fit" title="Encaixar a música inteira na tela">&#8690;<span class="fit-txt">&nbsp;Encaixar</span></button>
         </div>
       </div>
+      <div class="editor-bar" id="editor-bar">
+        <div class="editor-bar-inner">
+          <button id="btn-salvar" class="eb eb-save">&#10003; Salvar</button>
+          <button id="btn-cancelar" class="eb eb-cancel">Cancelar</button>
+          <button id="btn-restaurar" class="eb eb-restore" title="Voltar ao original">&#8635; Original</button>
+          <span class="eb-hint">Toque numa <b>nota</b> para mover, trocar ou apagar · toque na <b>letra</b> para adicionar</span>
+        </div>
+      </div>
     </div>
     <div class="cifra-wrap" id="cifra-wrap">
       <div class="cifra modo-fit" id="cifra"></div>
+    </div>
+
+    <!-- barra de ação da nota selecionada -->
+    <div class="sel-bar" id="sel-bar">
+      <span class="sel-label">Nota:</span>
+      <button id="sel-esq" title="Mover para a esquerda">&#9664;</button>
+      <button id="sel-dir" title="Mover para a direita">&#9654;</button>
+      <button id="sel-editar" title="Trocar acorde">&#9998;</button>
+      <button id="sel-apagar" class="perigo" title="Apagar nota">&#128465;</button>
+      <button id="sel-ok" class="ok">OK</button>
     </div>
   </section>
 
