@@ -39,18 +39,18 @@ Chegaremos a [Bm]Jesus. [Em]Alelu[A]ia! [D]`
   titulo: "Cristo Já Vem", tom: "G",
   corpo: `
 [G]Cristo já vem [Em]iluminar
-Minha [C]alma de [Am]amor e [D]paz
-Meu sol, [G]Jesus [D]amigo
+Minha [C]alma[Am] de amor e [D]paz
+Meu sol, Jesus [G]amigo
 
 Os anjos [G]cantam
 Em seu [Em]louvor
-Derramando [C]bênçãos [Am]de [D]amor
-[D]Meu sol, [G]Jesus [D]amigo
+Derraman[C]do [Am]bênçãos de a[D]mor
+[D]Meu sol, Jesus [G]amigo
 
 Deixai que eu [G]viva
 Sempre, sempre a cantar o [B7]amor
-E o [G]esplendor
-Que o céu [Am]criou
+E o [Em]esplendor
+Que o céu [C]criou
 Em seu [D]louvor
 [G]Cristo já vem`
 },
