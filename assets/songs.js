@@ -371,20 +371,20 @@ REFRÃO`
   dia: "sabado", ordem: 11, numero: 20, pagina: 19,
   titulo: "O Bom Cristão", tom: "D",
   corpo: `
-[D]Parece que eu sabia
-[Em]Que hoje era o dia [A7]/ de Cristo encon[D]trar
-Pois logo no[A7]tei / quando te encon[D]trei
-Pelo teu [Em]jeito de fa[A7]lar [D]
+Pa[D]rece que eu sabia
+Que hoje era o dia de Cristo encon[A7]trar
+Pois logo notei quando te encon[A7]trei
+Pelo teu jeito de fa[D]lar
 
-[D]Eu nunca pensei [D7]/ nem mesmo espe[G]rei [Gm]
-[F#m]Ver tanto a[B7]mor no [Em]teu o[A7]lhar [D]
-[G]E como o [F#m]mundo é [B7]grande / vou [Em]nem sei pra [A7]onde [D]
-E onde eu for eu vou falar
+Eu nunca pensei nem mesmo esperei
+Ver tanto amor no teu o[A7]lhar
+E como o mundo é grande vou nem sei pra onde
+E onde eu for eu vou fa[D]lar
 
-[D]Já nos encontramos
-[Em]Só nos resta a[A7]gora é reve[D]lar
-Te amar ir[A7]mão / sorrir e dar per[D]dão
-Faz um [Em]bom Cris[A7]tão [D]`
+Já nos encontramos
+Só nos resta a[D7]gora é reve[G]lar [Gm]
+Te amar ir[F#m]mão, sorrir e [B7]dar per[Em]dão
+Faz um [A7]bom Cris[D]tão`
 },
 {
   dia: "sabado", ordem: 12, numero: 22, pagina: 21,
@@ -501,29 +501,31 @@ A[E]lô, bom dia, ir[B7]mão... [E]`
   corpo: `
 Eu quero ap[Bm]enas olh[E7]ar os c[A]ampos, e[F#m]u quero apen[Bm]as cantar[E7] meu can[A]to
 Eu só não qu[Bm]ero cant[E7]ar soz[A]inho, eu q[F#m]uero um cor[Bm]o de pa[E7]ssari[A]nh[A7]os
+
+REFRÃO
 Quero lev[D]ar o meu ca[E7]nto ami[C#m]go a qua[F#m]lquer ami[Bm]go que p[E7]reci[A]sa[A7]r
 Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
 Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e [F#m]bem mais f[Bm]orte pod[E7]er cant[A]ar
+
 Eu quero ap[Bm]enas um v[E7]ento f[A]orte, l[F#m]evar meu bar[Bm]co no rum[E7]o nor[A]te
 E no cam[Bm]inho o que [E7]eu pesc[A]ar quer[F#m]o dividir[Bm] quando [E7]lá ch[A]eg[A7]ar
-Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
-Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
-Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais f[Bm]orte pod[E7]er cant[A]ar
+
+REFRÃO
+
 Eu quero cr[Bm]er na paz d[E7]o futur[A]o, [F#m]eu quero ter[Bm] um quintal[E7] sem mur[A]o
 Quero meu f[Bm]ilho pis[E7]ando f[A]irme, ca[F#m]ntando a[Bm]lto, sorri[E7]ndo li[A]vr[A7]e
-Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
-Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
-Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais f[Bm]orte pod[E7]er cant[A]ar
+
+REFRÃO
+
 Eu quero am[Bm]or decid[E7]indo a v[A]ida, [F#m]sentir a fo[Bm]rça da m[E7]ão am[A]iga
 O meu irm[Bm]ão com sorr[E7]iso ab[A]erto, [F#m]se ele cho[Bm]rar quero es[E7]tar por [A]pe[A7]rto
-Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
-Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
-Eu quero t[D]er um mi[E7]lhão de ami[C#m]gos e b[F#m]em mais f[Bm]orte pod[E7]er cant[A]ar
+
+REFRÃO
+
 Venha com[Bm]igo olh[E7]ar os c[A]ampos, c[F#m]ante comig[Bm]o tamb[E7]ém meu c[A]anto
 Eu só não qu[Bm]ero cant[E7]ar soz[A]inho, e[F#m]u quero um cor[Bm]o de pas[E7]sarin[A]ho[A7]s
-Quero lev[D]ar o meu can[E7]to ami[C#m]go a qual[F#m]quer ami[Bm]go que p[E7]reci[A]sa[A7]r
-Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e b[F#m]em mais fo[Bm]rte pod[E7]er ca[A]nt[A7]ar
-Eu quero t[D]er um mi[E7]lhão de a[C#m]migos e [F#m]bem mais [Bm]forte po[E7]der can[A]tar`
+
+REFRÃO`
 },
 {
   dia: "domingo", ordem: 3, numero: 30, pagina: 28,
@@ -568,71 +570,56 @@ Por melh[G]or que seja algu[Dm7]ém   [G]
 Chega o d[C]ia em que há de faltar [G]
 [G]Só o Deus vivo a palavra man[Em7]tém
 E jam[C]ais Ele há de fal[D7]har
+
+REFRÃO
 Q[G]uero cantar ao Senh[C]or
 [Am7]Sempre, enquanto eu vi[D7]ver
 [Bm7]Hei de provar Seu [Em7]amor, Seu v[Cm]alor
 E S[G]eu [D7]pod[G]er [D7]
-Q[G]uero cantar ao Senh[C]or
-Cantar ao Se[Am7]nhor
-Enquanto eu vi[D7]ver
-Enquanto eu [Bm7]viver
-Provar Seu[Em7] amor, Seu [Cm]valor
-E S[G]eu [D7]pod[G]er [D7]
+
 Nosso De[G]us põe-se do l[Dm7]ado  [G]
 Dos fam[C]intos e injustiça[G]dos
 [G]Dos pobres e opri[Em7]midos
 Dos inj[A]ustamente venci[D7]dos
-Q[G]uero cantar ao Senh[C]or
-[Am7]Sempre, enquanto eu vi[D7]ver
-[Bm7]Hei de provar Seu [Em7]amor, Seu v[Cm]alor
-E S[G]eu [D7]pod[G]er [D7]
-Q[G]uero cantar ao Senh[C]or
-Cantar ao Se[Am7]nhor
-Enquanto eu vi[D7]ver
-Enquanto eu [Bm7]viver
-Provar Seu[Em7] amor, Seu [Cm]valor
-E S[G]eu [D7]pod[G]er [D7]
-Q[G]uero cantar ao Senh[C]or
-Cantar ao Se[Am7]nhor
-Enquanto eu vi[D7]ver
-Enquanto eu [Bm7]viver
-Provar Seu[Em] amor, Seu va[Cm]lor
-E S[G]eu [C]   [D7]pod[G]er
-Ele barr[D#]a o caminho do[A#m7]s mau[D#]s
-Que ex[G#]ploram sem compai[D#]xão
-[D#]Mas dá força ao b[Cm7]raço dos bons
-Que sus[F]tentam o peso [A#7]do irmão
-Esse[D#] é o nosso D[A#m7]eus  [D#]
-Seu pod[G#]er permanece semp[D#]re
-[D#]Sua força é a for[Cm7]ça da gente
-Vamos t[F]odos louvar no[A#7]sso Deus`
+
+REFRÃO
+
+Ele barr[G]a o caminho do[Dm7]s mau[G]s
+Que ex[C]ploram sem compai[G]xão
+[G]Mas dá força ao b[Em7]raço dos bons
+Que sus[A]tentam o peso [D7]do irmão
+
+Esse[G] é o nosso D[Dm7]eus  [G]
+Seu pod[C]er permanece semp[G]re
+[G]Sua força é a for[Em7]ça da gente
+Vamos t[A]odos louvar no[D7]sso Deus`
 },
 {
   dia: "domingo", ordem: 5, numero: 20, pagina: 19,
   titulo: "O Bom Cristão", tom: "D",
   corpo: `
-[D]Parece que eu sabia
-[Em]Que hoje era o dia [A7]/ de Cristo encon[D]trar
-Pois logo no[A7]tei / quando te encon[D]trei
-Pelo teu [Em]jeito de fa[A7]lar [D]
+Pa[D]rece que eu sabia
+Que hoje era o dia de Cristo encon[A7]trar
+Pois logo notei quando te encon[A7]trei
+Pelo teu jeito de fa[D]lar
 
-[D]Eu nunca pensei [D7]/ nem mesmo espe[G]rei [Gm]
-[F#m]Ver tanto a[B7]mor no [Em]teu o[A7]lhar [D]
-[G]E como o [F#m]mundo é [B7]grande / vou [Em]nem sei pra [A7]onde [D]
-E onde eu for eu vou falar
+Eu nunca pensei nem mesmo esperei
+Ver tanto amor no teu o[A7]lhar
+E como o mundo é grande vou nem sei pra onde
+E onde eu for eu vou fa[D]lar
 
-[D]Já nos encontramos
-[Em]Só nos resta a[A7]gora é reve[D]lar
-Te amar ir[A7]mão / sorrir e dar per[D]dão
-Faz um [Em]bom Cris[A7]tão [D]`
+Já nos encontramos
+Só nos resta a[D7]gora é reve[G]lar [Gm]
+Te amar ir[F#m]mão, sorrir e [B7]dar per[Em]dão
+Faz um [A7]bom Cris[D]tão`
 },
 {
   dia: "domingo", ordem: 7, numero: 11, pagina: 10,
   titulo: "Canto Para as Refeições", tom: "D", tomObs: "dedilhado / violão",
   corpo: `
 ANTES
-[D]Ao Senhor ofere[G]cemos. Ale[D]luia.
-[Bm]O alimento que a[Em]qui [A]temos. Ale[D]luia.
+[D]Ao Senhor oferecemos. [G]Alelui[D]a.
+[Bm]O alimento que aqui te[Em]mos. [A]Alelu[D]ia.
 
 ANTES
 [D]Esta mesa de teus [G]filhos
@@ -641,8 +628,8 @@ ANTES
 [Bm]Com a tua, com a [Em]tua com[A]panhia [D](bis)
 
 DEPOIS
-[D]Ao Senhor agrade[G]cemos. Ale[D]luia.
-[Bm]O alimento que ti[Em]ve[A]mos. Ale[D]luia.`
+[D]Ao Senhor agradecemos. [G]Alelu[D]ia.
+[Bm]O alimento que tivem[Em]os. [A]Alelu[D]ia.`
 },
 {
   dia: "domingo", ordem: 8, numero: 33, pagina: 31,
@@ -652,18 +639,19 @@ P[G]ara ser feliz é prec[D7]iso ter
 Esse céu azul na im[G]ensidão
 É faz[G7]er da tristezas estr[C]elas a mais
 E do pr[D7]anto uma canç[G]ão
+
+REFRÃO
 Há um mundo b[D7]em melhor
 Todo feito pr[G]a você
 [G7]É um mundo p[C]equenino
 Que a ter[D7]nura f[G]ez
+
 Para ser feliz é prec[D7]iso amar
 E ver cada dia uma estr[G]ela a brilhar
 É dei[G7]xar que a ternura inv[C]ada teu ser
 Pra na p[D7]az de Deus viv[G]er
-Há um mundo b[D7]em melhor
-Todo feito p[G]ra você
-[G7]É um mundo p[C]equenino
-Que a ter[D7]nura f[G]ez`
+
+REFRÃO`
 },
 {
   dia: "domingo", ordem: 9, numero: 34, pagina: 32,
