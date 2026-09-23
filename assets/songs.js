@@ -135,6 +135,7 @@ Eis o que eu venho te d[C]ar
 [D]Eis o que eu ponho no alt[G]ar [D/F#]
 T[Em]oma senhor que ele é t[Am]eu  [D]
 M[Am]eu coraç[D]ão não é m[G]eu [G7]
+
 Qu[G]ero que o meu coração
 Seja tão cheio de p[Am]az  [D7]
 Q[Am]ue não se s[D7]inta cap[Am]az
@@ -144,7 +145,6 @@ Possa me amadurec[Am]er  [D7]
 L[Am]eve-me a c[D7]ompreend[Am]er
 As consequ[D]ências do am[G]or
 
-REFRÃO
 [G7]Eis o que eu venho te d[C]ar
 [D]Eis o que eu ponho no alt[G]ar [D/F#]
 T[Em]oma senhor que ele é t[Am]eu
@@ -175,8 +175,8 @@ V[G7]iva a nossa be[C]la união
   titulo: "Canto Para as Refeições", tom: "D", tomObs: "dedilhado / violão",
   corpo: `
 ANTES
-[D]Ao Senhor ofere[G]cemos. Ale[D]luia.
-[Bm]O alimento que a[Em]qui [A]temos. Ale[D]luia.
+[D]Ao Senhor oferecemos. [G]Alelui[D]a.
+[Bm]O alimento que aqui te[Em]mos. [A]Alelu[D]ia.
 
 ANTES
 [D]Esta mesa de teus [G]filhos
@@ -185,8 +185,8 @@ ANTES
 [Bm]Com a tua, com a [Em]tua com[A]panhia [D](bis)
 
 DEPOIS
-[D]Ao Senhor agrade[G]cemos. Ale[D]luia.
-[Bm]O alimento que ti[Em]ve[A]mos. Ale[D]luia.`
+[D]Ao Senhor agradecemos. [G]Alelu[D]ia.
+[Bm]O alimento que tivem[Em]os. [A]Alelu[D]ia.`
 },
 {
   dia: "sabado", ordem: 6, numero: 13, pagina: 12,
@@ -195,80 +195,49 @@ DEPOIS
 Eu te p[A]eço desta
 Água que tu tens!
 É água viva
-Meu Senh[E]or
+Meu Senh[Bm]or
 Tenho sede e tenho
-Fome de amor
-E acred[E7]ito nesta
+Fome de amo[E7]r
+E acredito nesta
 Fonte de onde v[A]ens
 Vens de D[A]eus, estás
 Em Deus, também és Deus
-E Deus contigo faz um s[E]ó
+E Deus contigo faz um s[Bm]ó
 Eu, porém, que vim
-Da terra e volto ao pó
+Da terra e volto ao [E7]pó
 Quero viver eternamente
 Ao lado t[A]eu
 
 REFRÃO
-És água v[E]iva
-És vida n[A]ova
-E todo d[E]ia me
-Batizas outra v[A]ez
-Me fazes r[E]enascer
-Me fazes r[A]eviver
-Eu quero [E]água desta
-Fonte de onde v[A]ens
-És água v[E]iva
-És vida n[A]ova
-E todo d[E]ia me
-Batizas outra v[A]ez
-Me fazes r[E]enascer
-Me fazes r[A]eviver
-Eu quero [E]água desta
-Fonte de onde v[A]ens
-Eu te p[A]eço desta
-Água que tu tens!
-É água viva
-Meu Senh[E]or
-Tenho sede e tenho
-Fome de amor
-E acred[E7]ito nesta
-Fonte de onde v[A]ens
-Vens de D[A]eus, estás
-Em Deus, também és Deus
-E Deus contigo faz um s[E]ó
-Eu, porém, que vim
-Da terra e volto ao pó
-Quero viver eternamente
-Ao lado t[A]eu
-
-REFRÃO
-És água v[E]iva
-És vida n[A]ova
-E todo d[E]ia me
-Batizas outra v[A]ez
-Me fazes r[E]enascer
-Me fazes r[A]eviver
-Eu quero [E]água desta
-Fonte de onde v[A]ens
-Eu quero [E]água desta
-Fonte de onde v[A]ens
-Eu quero [E]água desta
-Fonte de onde v[A]ens`
+És água v[D]iv[E]a
+És vida n[A]ova[F#m]
+E todo d[Bm]ia me
+Bat[E]izas outra v[A]ez
+Me fazes r[D]enasc[E]er
+Me fazes r[A]eviv[F#m]er
+Eu quero [Bm]água desta
+Fonte de[E] onde v[A]ens`
 },
 {
   dia: "sabado", ordem: 7, numero: 15, pagina: 14,
   titulo: "Eu Quero um Rio", tom: "Em",
   corpo: `
-[E]Existe um p[F#m]oço[B]       n[B7]o meio do d[E]eserto[C#m]
-O povo passa p[F#m]erto  [B7]    da sede a reclam[E]ar  [E7]
-Eu quero um r[A]io de água viva[B7]
-Eu quero um s[G#m]opro de esperança[C#m]
-Minha alma s[F#m]egue e não se cans[B7]a
-De caminh[E]ar  [E7]
-[E]Se tu soube[F#m]sse[B]s    Q[B7]uem pode dar-te [E]a vid[C#m]a
-Seria dissolvi[F#m]da  A [B7]mágoa mais cru[E]el  [E7]
-[E]Jesus é a v[F#m]ida[B]       [B7]    Vencendo[E] toda [C#m]morte
-Mudando a nossa [F#m]sorte [B7]   Livrando-nos do[E] mal[E7]`
+[D]Ex[D7]iste um po[Em]ço  [A7]     no meio do d[D]eserto[Bm]
+O povo passa p[Em]erto  [A7]    da sede a reclam[D]ar  [D7]
+
+REFRÃO
+Eu quero um r[G]io de água viva[A7]
+Eu quero um s[F#m]opro de esperança[Bm]
+Minha alma s[Em]egue e não se cans[A7]a
+De caminh[D]ar  [D7]
+
+[D]Se [D7]tu soube[Em]sse[A7]s    Quem pode dar-te [D]a vid[Bm]a
+Seria dissolvi[Em]da  A [A7]mágoa mais cru[D]el  [D7]
+
+REFRÃO
+
+[D]Jesu[D7]s é a v[Em]ida[A7]           Vencendo[D] toda [Bm]morte
+Mudando a nossa [Em]sorte [A7]   Livrando-nos do[D] mal[D7]`
 },
 {
   dia: "sabado", ordem: 8, numero: 16, pagina: 15,
@@ -321,94 +290,82 @@ Eu a [D7]isso chamo p[G]az`
   dia: "sabado", ordem: 9, numero: 17, pagina: 16,
   titulo: "Eu Tenho Tanto", tom: "G",
   corpo: `
-[Am]Eu tenho tanto para lhe fa[D7]lar
-[G]Mas com palavras não sei di[Em]zer
-[Am]Como é grande o meu amor por vo[D7]cê [G]
-[Am]E não há nada para se compa[D7]rar
-[G]Para poder lhe expli[Em]car
-[Am]Como é grande meu amor por vo[D7]cê [G]
-
-[Am]Nem mesmo o céu, nem as es[D7]trelas
-[G]Nem mesmo o mar e o infi[Em]nito
-[Am]Não é maior que o meu a[D7]mor
-[G]Nem mais bo[Bm]nito
-[Am]Me desespero a procu[D7]rar
-[G]Alguma coisa pra lhe fa[Em]lar
-[Am]Como é grande o meu amor por vo[D7]cê [G]
-
-[Am]Nunca se esqueça, nem um se[D7]gundo
-[G]Que eu tenho o amor maior do [Em]mundo
-[Am]Como é grande o meu amor por vo[D7]cê
-[G]Mas como é grande o meu amor por vo[Bm]cê`
+Eu tenho t[Am7]anto pra lhe fal[D7]ar
+Mas com pal[G]avras não sei diz[Bm7]er   [A#7]
+Como é gr[Am7]ande o meu am[D7]or por voc[G]ê    [G]          [Em7]
+E não há n[Am7]ada pra compar[D7]ar
+Para pod[G]er lhe explic[Bm7]ar   [A#7]
+Como é gr[Am7]ande o meu am[D7]or por v[G]ocê [C]      [G]   [Em7]
+Nem mesmo o c[Am7]éu, nem as estr[D7]elas
+Nem mesmo o m[G]ar e o infin[Em7]ito
+Não é mai[Am7]or que o meu am[D7]or
+Nem mais bon[G]ito  [G]          [Em7]
+Me desesp[Am7]ero a procur[D7]ar
+Alguma f[G]orma de lhe fal[Em7]ar
+Como é gr[A7]ande    [A7]   o meu am[A7]or       [A7]
+Por voc[D7]ê         [D7]    [Am7]     [G#°]
+Nunca se esqu[Am7]eça nenhum seg[D7]undo
+Que eu tenho o am[G]or maior do m[Bm7]undo  [A#7]
+Como é gr[Am7]ande o meu am[D7]or
+Por voc[G]ê  [C]      [G]
+Nunca se esqu[Am7]eça nenhum seg[D7]undo
+Que eu t[G]enho o amor mai[Bm7]or do mund[A#7]o
+Como é gr[Am7]ande o meu am[D7]or por v[G]ocê  [G]          [Em7]
+Como é gr[Am7]ande o meu am[D7]or por voc[G]ê  [C]      [G]`
 },
 {
   dia: "sabado", ordem: 10, numero: 18, pagina: 17,
   titulo: "Salmo 22", tom: "D", tomObs: "teclado",
   corpo: `
-Pelos pr[D]ados e camp[F#m7(11)]inas
+Pelos pr[D]ados e camp[F#m7]inas
 Verdej[G]antes eu v[D]ou
-É o Senh[F#m7(11)]or que me l[G]eva [Em7]
+É o Senh[F#m7]or que me l[G]eva [Em7]
 A descans[A4]ar  [A]
-Junto às f[D]ontes de águas p[F#m7(11)]uras
+Junto às f[D]ontes de águas p[F#m7]uras
 Repous[G]antes eu v[D]ou
-Minhas f[F#m7(11)]orças o Senh[G]or [Em7]
+Minhas f[F#m7]orças o Senh[G]or [Em7]
 Vai anim[A4]ar  [A]
 
 REFRÃO
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+[D]     Tu [G]és, Senh[A]or, o m[F#m7]eu past[Bm7]or
 Por isso n[Em7]ada
 Em minha v[A]ida faltar[Am7]á    [D]
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
+[D]     Tu [G]és, Senh[A]or, o m[F#m7]eu past[Bm7]or
 Por isso n[Em7]ada
-Em minha v[A]ida faltar[G]á  [D]   [G/D]
-Nos cam[D7M]inhos mais segur[F#m7(11)]os
+Em minha v[A]ida faltar[G]á  [D]   [G]
+
+Nos cam[D]inhos mais segur[F#m7]os
 Junto D[G]ele eu v[D]ou
-E pra s[F#m7(11)]empre o Seu n[G]ome [Em7]
-Eu honrar[A4]ei  [A]   [A/C#]
-Se eu enc[D]ontro mil ab[F#m7(11)]ismos
+E pra s[F#m7]empre o Seu n[G]ome [Em7]
+Eu honrar[A4]ei  [A]   [A]
+Se eu enc[D]ontro mil ab[F#m7]ismos
 Nos cam[G]inhos eu v[D]ou
-Segur[F#m7(11)]ança sempre t[G]enho
+Segur[F#m7]ança sempre t[G]enho
 Em Suas m[A6]ãos [Am7]     [D4]
 
 REFRÃO
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[Am7]á    [D]
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[G]á  [D]   [G/D]
-Num banqu[D]ete em Sua c[F#m7(11)]asa
+
+Num banqu[D]ete em Sua c[F#m7]asa
 Muito al[G]egre eu v[D]ou
-Um lug[F#m7(11)]ar em Sua m[G]esa [Em7]
+Um lug[F#m7]ar em Sua m[G]esa [Em7]
 Me prepa[A4]rou [A]
-Ele [D]unge minha fr[F#m7(11)]onte
+Ele [D]unge minha fr[F#m7]onte
 E me f[G]az ser fel[D]iz
 E transb[F#m7]orda a minha t[G]aça [Em7]
 Em Seu am[Am7]or   [D4]
 
 REFRÃO
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[Am7]á    [D7(4)]
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[G]á  [Gm]
-Bem a fr[D]ente do inim[F#m7(11)]igo
+
+Bem a fr[D]ente do inim[F#m7]igo
 Confi[G]ante eu v[D]ou
-Tenho s[F#m7(11)]empre o Senh[G]or [Em7]
+Tenho s[F#m7]empre o Senh[G]or [Em7]
 Junto de m[A4]im  [A]
-Seu caj[D]ado me prot[F#m7(11)]ege
+Seu caj[D]ado me prot[F#m7]ege
 E eu jam[G]ais temer[D]ei
-Sempre j[F#m7(11)]unto do Senh[G]or [Em7]
+Sempre j[F#m7]unto do Senh[G]or [Em7]
 Eu estar[Am7]ei   [D4]
 
-REFRÃO
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[Am7]á    [D7(4)]
-[D/F#]     Tu [G]és, Senh[A/G]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[G]á  [Gm]    [D]`
+REFRÃO`
 },
 {
   dia: "sabado", ordem: 11, numero: 20, pagina: 19,
@@ -438,42 +395,32 @@ REFRÃO
 Coração p[D]obre, acolh[C]endo Jes[G]us
 Imaculada Maria do p[C]ovo
 Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz
+
 Um coração que era sim para a v[C]ida
 Um coraç[D]ão que era sim para o irm[G]ão
 Um coraç[C]ão que era sim para D[G]eus
 R[E7]eino de D[Am7]eus renova[D]ndo este chã[G]o
 
 REFRÃO
-Imaculada Maria de D[C]eus
-Coração p[D]obre, acolh[C]endo Jes[G]us
-Imaculada Maria do p[C]ovo
-Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz
+
 Olhos abertos pra sede do p[C]ovo
 Passo bem f[D]irme que o medo dest[G]erra
 Mãos estend[C]idas que os tronos ren[G]egam
 R[E7]eino de D[Am7]eus que reno[D7]va esta te[G]rra
 
 REFRÃO
-Imaculada Maria de D[C]eus
-Coração p[D]obre, acolh[C]endo Jes[G]us
-Imaculada Maria do p[C]ovo
-Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz
+
 Faça-se, ó Pai, vossa plena vont[C]ade
 Que os nossos p[D]assos se tornem mem[G]ória
 Do amor fi[C]el que Maria ger[G]ou
 R[E7]eino de D[Am7]eus atua[D7]ndo na Histó[G]ria
 
-REFRÃO
-Imaculada Maria de D[C]eus
-Coração p[D]obre, acolh[C]endo Jes[G]us
-Imaculada Maria do p[C]ovo
-Mãe dos afl[D]itos que est[D7]ão junto à cr[G]uz`
+REFRÃO`
 },
 {
   dia: "sabado", ordem: 13, numero: 25, pagina: 24,
   titulo: "Porque Ele Vive", tom: "G", tomObs: "sugerido",
   corpo: `
-    ↓   ↓ ↑   ↓     ↑     ↓     ↑   ↓
 Deus enviou
 Seu filho am[C]ado [C9]    [C]
 Para morr[G]er [Em]
@@ -492,6 +439,7 @@ Mas eu bem s[G]ei [G7]
 Que o meu fut[C]uro [Cm]
 Está nas m[G]ãos do m[E7]eu Jes[Am]us
 Que vivo está
+
 Um dia eu vou
 Cruzar os r[C]ios
 E verei ent[G]ão
@@ -502,14 +450,7 @@ Vitori[G]oso, v[E7]ive e r[Am]eina
 O meu Jesus
 
 REFRÃO
-Porque Ele vive
-Eu posso crer no [C]amanhã [C9]    [C]
-Porque Ele v[G]ive
-[Em]   Temor não h[F]á  [D/F#]
-Mas eu bem s[G]ei [G7]
-Que o meu fut[C]uro [Cm]
-Está nas m[G]ãos do m[E7]eu Jes[Am]us
-Que vivo está
+
 Porque Ele vive
 Eu posso crer no amanhã
 Porque Ele vive
@@ -617,16 +558,7 @@ Pois é d[F#7]ando que se rec[Bm]ebe
 E é morr[D]endo qu[Em]e se v[Bm]ive
 Para a v[Em]ida et[F#7]er_n[Bm]a
 
-REFRÃO
-Ó M[Bm]estre, faz[D]ei
-Que eu proc[Bm]ure m[Em]ais
-Consol[D]ar que s[F#7/C#]er consol[Bm]ado
-Compreend[Em]er que s[D]er compreend[A/C#]ido
-Am[D]ar [F#7]   que ser am[Bm]ado
-Pois é d[F#7]ando que se rec[Bm]ebe
-É perdo[Em]ando que se [Em/D]é perdo[A/C#]ado
-E é morr[D]endo qu[Em]e se v[Bm]ive
-Para a v[Em]ida et[F#7]er_n[Bm]a`
+REFRÃO`
 },
 {
   dia: "domingo", ordem: 4, numero: 29, pagina: 27,
@@ -767,6 +699,7 @@ Abençoa, Senhor, as famílias! am[A7]ém!
 Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
 Abençoa, Senhor, as famílias! am[A7]ém!
 Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
+
 Que mar[D]ido e mulher tenham força
 De amar sem med[A7]ida
 Que ninguém vá dormir sem pedir
@@ -793,10 +726,6 @@ E que os f[D]ilhos conheçam
 A força que brota do amor
 
 REFRÃO
-Abençoa, Senhor, as famílias! am[A7]ém!
-Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
-Abençoa, Senhor, as famílias! am[A7]ém!
-Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
 Abençoa, Senh[A7]or, a minha também`
 },
 
