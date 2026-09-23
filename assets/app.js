@@ -196,6 +196,33 @@
       .sort(function (a, b) { return a.ordem - b.ordem; });
   }
 
+  // lista com TODAS as músicas em ordem (sexta -> sábado -> domingo)
+  function listaGlobal() {
+    var arr = [];
+    DIAS.forEach(function (d) { arr = arr.concat(musicasDoDia(d.id)); });
+    return arr;
+  }
+  function nomeDia(dia) {
+    var n = dia;
+    DIAS.forEach(function (d) { if (d.id === dia) n = d.nome; });
+    return n;
+  }
+  function navegar(delta) {
+    var g = listaGlobal();
+    var i = g.indexOf(estado.musicaAtual);
+    if (i < 0) return;
+    var alvo = g[(i + delta + g.length) % g.length];
+    estado.dia = alvo.dia;
+    abrirMusica(alvo);
+  }
+  function atualizarNav() {
+    var m = estado.musicaAtual;
+    if (!m || !el.navAtual) return;
+    var doDia = musicasDoDia(m.dia);
+    var pos = doDia.indexOf(m) + 1;
+    el.navAtual.textContent = nomeDia(m.dia) + " · " + pos + "/" + doDia.length;
+  }
+
   /* ---------- Lista ---------- */
   function renderTabs() {
     el.tabs.innerHTML = "";
@@ -266,6 +293,7 @@
     document.body.classList.add("vendo-musica");
     el.cifraWrap.scrollTop = 0;
     window.scrollTo(0, 0);
+    atualizarNav();
     atualizarCifra();
   }
 
@@ -591,6 +619,9 @@
     el.cifra = document.getElementById("cifra");
     el.cifraWrap = document.getElementById("cifra-wrap");
     el.btnFit = document.getElementById("btn-fit");
+    el.navAtual = document.getElementById("nav-atual");
+    document.getElementById("nav-prev").onclick = function () { navegar(-1); };
+    document.getElementById("nav-next").onclick = function () { navegar(1); };
 
     document.getElementById("btn-voltar").onclick = fecharMusica;
     document.getElementById("btn-menos").onclick = function () { transpor(-1); };
@@ -678,6 +709,8 @@
 
       if (e.key === "ArrowUp" || e.key === "+") { transpor(1); }
       else if (e.key === "ArrowDown" || e.key === "-") { transpor(-1); }
+      else if (e.key === "ArrowLeft") { navegar(-1); }
+      else if (e.key === "ArrowRight") { navegar(1); }
       else if (e.key === "Escape") { fecharMusica(); }
     });
 

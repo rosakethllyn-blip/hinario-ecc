@@ -62,8 +62,8 @@ Em seu [D]louvor
 [G]Desce a noite, foge a [C]luz
 [Am]Quero agora despedir-[Em]me
 [F]Boa noite, meu Je[C]sus (bis)
-[Am]Senhor, dai-nos a ben[Em]ção
-[F]E do mal que nos se[C]duz
+[C]Senhor, dai-nos a ben[Dm]ção
+[G]E do mal que nos se[C]duz
 [Am]Nossos filhos e a nós guardai-[Em]nos
 [F]Boa noite, meu Je[G]sus [C](bis)`
 },
@@ -468,8 +468,8 @@ Que v[D]ivo est[G]á`
 [G]Desce a noite, foge a [C]luz
 [Am]Quero agora despedir-[Em]me
 [F]Boa noite, meu Je[C]sus (bis)
-[Am]Senhor, dai-nos a ben[Em]ção
-[F]E do mal que nos se[C]duz
+[C]Senhor, dai-nos a ben[Dm]ção
+[G]E do mal que nos se[C]duz
 [Am]Nossos filhos e a nós guardai-[Em]nos
 [F]Boa noite, meu Je[G]sus [C](bis)`
 },

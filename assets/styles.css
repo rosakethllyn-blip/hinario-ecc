@@ -294,6 +294,25 @@ body.editando #btn-toggle { display: none; }
 }
 .linha.edit .texto:hover { border-bottom-color: var(--text-soft); }
 
+/* barra de navegação entre músicas */
+.mv-nav {
+  flex: none; display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
+  background: var(--surface); border-top: 1px solid var(--border);
+}
+body.editando .mv-nav { display: none; }
+.navbtn {
+  flex: 1; border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+  border-radius: 11px; height: 44px; cursor: pointer; font-size: 14px; font-weight: 700;
+  white-space: nowrap;
+}
+.navbtn:hover { border-color: var(--brand); color: var(--brand); }
+.navbtn:active { transform: scale(.97); }
+.nav-atual {
+  flex: none; min-width: 92px; text-align: center;
+  font-size: 12px; color: var(--text-soft); font-weight: 600;
+}
+
 /* barra de ação da nota selecionada (fixa embaixo) */
 .sel-bar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
