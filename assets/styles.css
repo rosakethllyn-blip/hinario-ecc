@@ -241,6 +241,19 @@ body.editando .cifra { padding-bottom: 100px; }  /* espaço p/ a barra da nota *
   font-size: .8em; text-transform: uppercase;
   margin: .7em 0 .25em;
 }
+/* bloco do refrão com fundo destacado */
+.bloco-refrao {
+  background: var(--surface-2);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  padding: 3px 10px 6px;
+  margin: 8px 0;
+}
+.bloco-refrao .secao-refrao { margin-top: 3px; }
+:root[data-theme="dark"] .bloco-refrao,
+:root:not([data-theme="light"]) .bloco-refrao {
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+}
 
 /* ---------- Editor de cifra ---------- */
 .editor-bar { display: none; border-top: 1px solid var(--border); background: var(--surface); }

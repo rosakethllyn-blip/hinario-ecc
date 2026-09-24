@@ -93,26 +93,49 @@
     var t = linha.trim();
     return /^(REFRÃO|REFRAO|ANTES|DEPOIS|REFRÃO:|PONTE)$/i.test(t);
   }
+  function ehRefrao(linha) {
+    var t = linha.trim().replace(/:$/, "").toUpperCase();
+    return t === "REFRÃO" || t === "REFRAO";
+  }
 
   function renderCorpo(corpo, steps, useFlat) {
     var frag = document.createDocumentFragment();
     var linhas = corpo.replace(/^\n+/, "").replace(/\n+$/, "").split("\n");
-    linhas.forEach(function (linha) {
+    var i = 0;
+    while (i < linhas.length) {
+      var linha = linhas[i];
+      // bloco do REFRÃO: cabeçalho + linhas seguintes, com fundo destacado
+      if (ehRefrao(linha)) {
+        var box = document.createElement("div");
+        box.className = "bloco-refrao";
+        var h = document.createElement("div");
+        h.className = "secao secao-refrao";
+        h.textContent = linha.trim();
+        box.appendChild(h);
+        i++;
+        while (i < linhas.length && linhas[i].trim() !== "" && !ehSecao(linhas[i])) {
+          box.appendChild(renderLinha(linhas[i], steps, useFlat));
+          i++;
+        }
+        frag.appendChild(box);
+        continue;
+      }
       if (linha.trim() === "") {
         var vazio = document.createElement("div");
         vazio.className = "linha-vazia";
         frag.appendChild(vazio);
-        return;
+        i++; continue;
       }
       if (ehSecao(linha)) {
         var sec = document.createElement("div");
         sec.className = "secao";
         sec.textContent = linha.trim();
         frag.appendChild(sec);
-        return;
+        i++; continue;
       }
       frag.appendChild(renderLinha(linha, steps, useFlat));
-    });
+      i++;
+    }
     return frag;
   }
 

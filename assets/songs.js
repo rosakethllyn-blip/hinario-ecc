@@ -117,10 +117,11 @@ A[E]lô, bom dia, ir[B7]mão... [E]`
   dia: "sabado", ordem: 3, numero: 8, pagina: 8,
   titulo: "Um Coração Para Amar", tom: "G",
   corpo: `
-[G]  Um coração para amar
+[G]Um coração para amar
 Pra perdoar e sent[Am]ir  [D7]
 P[Am]ara chor[D7]ar e sorr[Am]ir
 [D7]Ao me criar tu me d[G]este
+
 Um coração pra sonhar
 Inquieto e sempre a bat[Am]er  [D7]
 [Am]Ansioso p[D7]or ent[Am]ender
@@ -131,32 +132,18 @@ REFRÃO
 [D]Eis o que eu ponho no alt[G]ar [D/F#]
 T[Em]oma senhor que ele é t[Am]eu
 M[D]eu coração não é m[F]eu [G7]
-Eis o que eu venho te d[C]ar
-[D]Eis o que eu ponho no alt[G]ar [D/F#]
-T[Em]oma senhor que ele é t[Am]eu  [D]
-M[Am]eu coraç[D]ão não é m[G]eu [G7]
 
 Qu[G]ero que o meu coração
 Seja tão cheio de p[Am]az  [D7]
 Q[Am]ue não se s[D7]inta cap[Am]az
 D[D7]e sentir ódio ou r[G]ancor
+
 Quero que a minha oração
 Possa me amadurec[Am]er  [D7]
 L[Am]eve-me a c[D7]ompreend[Am]er
 As consequ[D]ências do am[G]or
 
-[G7]Eis o que eu venho te d[C]ar
-[D]Eis o que eu ponho no alt[G]ar [D/F#]
-T[Em]oma senhor que ele é t[Am]eu
-M[D]eu coração não é m[F]eu [G7]
-[G/D]Eis o que eu v[G7]enho te d[C]ar
-[D7]Eis o que eu ponho no alt[G]ar [D/F#]
-T[Em]oma senhor que ele é t[Am]eu  [D]
-M[Am]eu coraç[D]ão não é m[G]eu [G/B]
-[G/D]Eis o que eu v[G7]enho te d[C]ar
-[D7]Eis o que eu ponho no alt[G]ar [D/F#]
-T[Em]oma senhor que ele é t[Am]eu  [D]
-M[Am]eu coraç[D]ão não é m[G]eu`
+REFRÃO`
 },
 {
   dia: "sabado", ordem: 4, numero: 10, pagina: 10,
