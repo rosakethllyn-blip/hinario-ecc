@@ -211,67 +211,40 @@ Fonte de[E] onde v[A]ens`
   corpo: `
 [D]Ex[D7]iste um po[Em]ço  [A7]     no meio do d[D]eserto[Bm]
 O povo passa p[Em]erto  [A7]    da sede a reclam[D]ar  [D7]
-
-REFRÃO
 Eu quero um r[G]io de água viva[A7]
 Eu quero um s[F#m]opro de esperança[Bm]
 Minha alma s[Em]egue e não se cans[A7]a
 De caminh[D]ar  [D7]
-
-[D]Se [D7]tu soube[Em]sse[A7]s    Quem pode dar-te [D]a vid[Bm]a
+Se tu soube[Em]sse[A7]s    Quem pode dar-te [D]a vid[Bm]a
 Seria dissolvi[Em]da  A [A7]mágoa mais cru[D]el  [D7]
-
-REFRÃO
-
-[D]Jesu[D7]s é a v[Em]ida[A7]           Vencendo[D] toda [Bm]morte
+Jesus é a v[Em]ida[A7]           Vencendo[D] toda [Bm]morte
 Mudando a nossa [Em]sorte [A7]   Livrando-nos do[D] mal[D7]`
 },
 {
   dia: "sabado", ordem: 8, numero: 16, pagina: 15,
   titulo: "Utopia", tom: "G", tomObs: "sugerido",
   corpo: `
-Das muitas c[G]oisas
-Do meu t[D7]empo de cri[G]ança
-Guardo v[D7]ivo na lembr[G]ança
-O aconch[G7]ego do meu l[C]ar
-No fim da t[Am]arde
-Quando t[D7]udo se aquiet[Am]ava
-A fam[D7]ília se aj[Am]untava
-Lá no alp[D7]endre a convers[G]ar [D7]
-Meus pais não t[G]inham
-Nem esc[D]ola e nem dinh[G]eiro
-Todo o d[D]ia o ano int[G]eiro
-Trabalh[G7]avam sem par[C]ar
-Faltava tudo mas a gente nem lig[G]ava
-O import[Em]ante não falt[Am]ava
-Seu sorr[D7]iso e seu olh[G]ar
-Eu tantas v[G]ezes
-Vi meu p[D7]ai chegar cans[G]ado
-Mas aqu[D7]ilo era sagr[G]ado
-Um por [G7]um ele afag[C]ava
-E pergunt[Am]ava quem fiz[D7]era estripol[Am]ia
-E mam[D7]ãe nos defend[Am]ia
-E tudo aos p[D7]oucos se ajeit[G]ava [D7]
-O sol se p[G]unha, a vi[D7]ola alguém traz[G]ia
-Todo m[D7]undo então ped[G]ia
-Pro pap[G7]ai cantar com a g[C]ente
-Desafinado meio rouco voz cans[G]ada
-Ele cant[Em]ava mil to[Am]adas
-Seu olh[D7]ar ao sol po[G]ente [D7]
-Correu o t[G]empo
-E hoje eu v[D7]ejo a marav[G]ilha
-De se t[D7]er uma fam[G]ília
-Quando t[G7]antos não a t[C]êm
-Agora f[Am]alam do desqu[D7]ite do div[Am]órcio
-O am[D7]or virou cons[Am]órcio
-Comprom[D7]isso de ningu[G]ém [D7]
-Há tantos f[G]ilhos
-Que bem m[D7]ais do que um pal[G]ácio
-Gostar[D7]iam de um abr[G]aço
-E do car[G7]inho entre seus p[C]ais
-Se os pais amassem o divórcio não vir[Bm]ia
-Chame a [Em]isso de Utop[Am]ia
-Eu a [D7]isso chamo p[G]az`
+Das muitas c[G]oisas   Do meu t[D7]empo de cri[G]ança
+Guardo v[D7]ivo na lembr[G]ança   O aconch[G7]ego do meu l[C]ar
+No fim da t[Am]arde   Quando t[D7]udo se aquiet[Am]ava
+A fam[D7]ília se aj[Am]untava   Lá no alp[D7]endre a convers[G]ar [D7]
+Meus pais não t[G]inham   Nem esc[D]ola e nem dinh[G]eiro
+Todo o d[D]ia o ano int[G]eiro   Trabalh[G7]avam sem par[C]ar
+Faltava tudo mas a gente nem lig[G]ava   O import[Em]ante não falt[Am]ava
+Seu sorr[D7]iso e seu olh[G]ar   Eu tantas v[G]ezes
+Vi meu p[D7]ai chegar cans[G]ado   Mas aqu[D7]ilo era sagr[G]ado
+Um por [G7]um ele afag[C]ava   E pergunt[Am]ava quem fiz[D7]era estripol[Am]ia
+E mam[D7]ãe nos defend[Am]ia   E tudo aos p[D7]oucos se ajeit[G]ava [D7]
+O sol se p[G]unha, a vi[D7]ola alguém traz[G]ia   Todo m[D7]undo então ped[G]ia
+Pro pap[G7]ai cantar com a g[C]ente   Desafinado meio rouco voz cans[G]ada
+Ele cant[Em]ava mil to[Am]adas   Seu olh[D7]ar ao sol po[G]ente [D7]
+Correu o t[G]empo   E hoje eu v[D7]ejo a marav[G]ilha
+De se t[D7]er uma fam[G]ília   Quando t[G7]antos não a t[C]êm
+Agora f[Am]alam do desqu[D7]ite do div[Am]órcio   O am[D7]or virou cons[Am]órcio
+Comprom[D7]isso de ningu[G]ém [D7]   Há tantos f[G]ilhos
+Que bem m[D7]ais do que um pal[G]ácio   Gostar[D7]iam de um abr[G]aço
+E do car[G7]inho entre seus p[C]ais   Se os pais amassem o divórcio não vir[Bm]ia
+Chame a [Em]isso de Utop[Am]ia   Eu a [D7]isso chamo p[G]az`
 },
 {
   dia: "sabado", ordem: 9, numero: 17, pagina: 16,
@@ -304,53 +277,34 @@ Como é gr[Am7]ande o meu am[D7]or por voc[G]ê  [C]      [G]`
   dia: "sabado", ordem: 10, numero: 18, pagina: 17,
   titulo: "Salmo 22", tom: "D", tomObs: "teclado",
   corpo: `
-Pelos pr[D]ados e camp[F#m7]inas
-Verdej[G]antes eu v[D]ou
-É o Senh[F#m7]or que me l[G]eva [Em7]
-A descans[A4]ar  [A]
-Junto às f[D]ontes de águas p[F#m7]uras
-Repous[G]antes eu v[D]ou
-Minhas f[F#m7]orças o Senh[G]or [Em7]
-Vai anim[A4]ar  [A]
+Pelos pr[D]ados e camp[F#m7]inas   Verdej[G]antes eu v[D]ou
+É o Senh[F#m7]or que me l[G]eva [Em7]   A descans[A4]ar  [A]
+Junto às f[D]ontes de águas p[F#m7]uras   Repous[G]antes eu v[D]ou
+Minhas f[F#m7]orças o Senh[G]or [Em7]   Vai anim[A4]ar  [A]
 
 REFRÃO
-[D]     Tu [G]és, Senh[A]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[Am7]á    [D]
-[D]     Tu [G]és, Senh[A]or, o m[F#m7]eu past[Bm7]or
-Por isso n[Em7]ada
-Em minha v[A]ida faltar[G]á  [D]   [G]
+[D]     Tu [G]és, Senh[A]or, o m[F#m7]eu past[Bm7]or   Por isso n[Em7]ada
+Em minha v[A]ida faltar[Am7]á    [D]   [D]     Tu [G]és, Senh[A]or, o m[F#m7]eu past[Bm7]or
+Por isso n[Em7]ada   Em minha v[A]ida faltar[G]á  [D]   [G]
 
-Nos cam[D]inhos mais segur[F#m7]os
-Junto D[G]ele eu v[D]ou
-E pra s[F#m7]empre o Seu n[G]ome [Em7]
-Eu honrar[A4]ei  [A]   [A]
-Se eu enc[D]ontro mil ab[F#m7]ismos
-Nos cam[G]inhos eu v[D]ou
-Segur[F#m7]ança sempre t[G]enho
-Em Suas m[A6]ãos [Am7]     [D4]
+Nos cam[D]inhos mais segur[F#m7]os   Junto D[G]ele eu v[D]ou
+E pra s[F#m7]empre o Seu n[G]ome [Em7]   Eu honrar[A4]ei  [A]   [A]
+Se eu enc[D]ontro mil ab[F#m7]ismos   Nos cam[G]inhos eu v[D]ou
+Segur[F#m7]ança sempre t[G]enho   Em Suas m[A6]ãos [Am7]     [D4]
 
 REFRÃO
 
-Num banqu[D]ete em Sua c[F#m7]asa
-Muito al[G]egre eu v[D]ou
-Um lug[F#m7]ar em Sua m[G]esa [Em7]
-Me prepa[A4]rou [A]
-Ele [D]unge minha fr[F#m7]onte
-E me f[G]az ser fel[D]iz
-E transb[F#m7]orda a minha t[G]aça [Em7]
-Em Seu am[Am7]or   [D4]
+Num banqu[D]ete em Sua c[F#m7]asa   Muito al[G]egre eu v[D]ou
+Um lug[F#m7]ar em Sua m[G]esa [Em7]   Me prepa[A4]rou [A]
+Ele [D]unge minha fr[F#m7]onte   E me f[G]az ser fel[D]iz
+E transb[F#m7]orda a minha t[G]aça [Em7]   Em Seu am[Am7]or   [D4]
 
 REFRÃO
 
-Bem a fr[D]ente do inim[F#m7]igo
-Confi[G]ante eu v[D]ou
-Tenho s[F#m7]empre o Senh[G]or [Em7]
-Junto de m[A4]im  [A]
-Seu caj[D]ado me prot[F#m7]ege
-E eu jam[G]ais temer[D]ei
-Sempre j[F#m7]unto do Senh[G]or [Em7]
-Eu estar[Am7]ei   [D4]
+Bem a fr[D]ente do inim[F#m7]igo   Confi[G]ante eu v[D]ou
+Tenho s[F#m7]empre o Senh[G]or [Em7]   Junto de m[A4]im  [A]
+Seu caj[D]ado me prot[F#m7]ege   E eu jam[G]ais temer[D]ei
+Sempre j[F#m7]unto do Senh[G]or [Em7]   Eu estar[Am7]ei   [D4]
 
 REFRÃO`
 },
@@ -408,44 +362,23 @@ REFRÃO`
   dia: "sabado", ordem: 13, numero: 25, pagina: 24,
   titulo: "Porque Ele Vive", tom: "G", tomObs: "sugerido",
   corpo: `
-Deus enviou
-Seu filho am[C]ado [C9]    [C]
-Para morr[G]er [Em]
-No meu lug[F]ar [D]
-Na cruz pag[G]ou [G7]
-Por meus pec[C]ados [Cm]
-Mas o sep[G]ulcro vaz[E7]io est[Am]á
-Porque ele vive
+Deus enviou   Seu filho am[C]ado [C9]    [C]
+Para morr[G]er [Em]   No meu lug[F]ar [D]
+Na cruz pag[G]ou [G7]   Por meus pec[C]ados [Cm]
+Mas o sep[G]ulcro vaz[E7]io est[Am]á   Porque ele vive
 
 REFRÃO
-Porque Ele vive
-Eu posso crer no [C]amanhã [C9]    [C]
-Porque Ele v[G]ive
-[Em]   Temor não h[F]á  [D/F#]
-Mas eu bem s[G]ei [G7]
-Que o meu fut[C]uro [Cm]
-Está nas m[G]ãos do m[E7]eu Jes[Am]us
-Que vivo está
+Porque Ele vive   Eu posso crer no [C]amanhã [C9]    [C]
+Porque Ele v[G]ive   [Em]   Temor não h[F]á  [D/F#]
+Mas eu bem s[G]ei [G7]   Que o meu fut[C]uro [Cm]
+Está nas m[G]ãos do m[E7]eu Jes[Am]us   Que vivo está
 
-Um dia eu vou
-Cruzar os r[C]ios
-E verei ent[G]ão
-[Em]   Um Céu de L[F]uz [D]
-E verei que l[G]á  [G7]
-Em plena gl[C]ória [Cm]
-Vitori[G]oso, v[E7]ive e r[Am]eina
-O meu Jesus
+Um dia eu vou   Cruzar os r[C]ios
+E verei ent[G]ão   [Em]   Um Céu de L[F]uz [D]
+E verei que l[G]á  [G7]   Em plena gl[C]ória [Cm]
+Vitori[G]oso, v[E7]ive e r[Am]eina   O meu Jesus
 
-REFRÃO
-
-Porque Ele vive
-Eu posso crer no amanhã
-Porque Ele vive
-Temor não h[F]á  [D/F#]
-Mas eu bem s[G]ei [G7]
-Que o meu fut[C]uro [Cm]
-Está nas m[G]ãos do m[E7]eu Jes[Am]us
-Que v[D]ivo est[G]á`
+REFRÃO`
 },
 {
   dia: "sabado", ordem: 14, numero: 4, pagina: 5,
@@ -644,61 +577,35 @@ REFRÃO`
   dia: "domingo", ordem: 9, numero: 34, pagina: 32,
   titulo: "Oração da Família", tom: "D", tomObs: "sugerido",
   corpo: `
-Que nenh[D]uma família comece
-Em qualquer de rep[A7]ente
-Que nenhuma família termine
-Por falta de am[D]or
-Que o casal seja um para o outro
-De corpo e de m[A7]ente
-E que nada no mundo separe
-Um casal sonhad[D]or
-Que nenhuma família
-Se abrigue debaixo da p[A7]onte
-Que ninguém interfira no lar
-E na vida dos d[D]ois
-Que ninguém os obrigue
-A viver sem nenhum horiz[A7]onte
-Que eles vivam do ontem
-Do hoje e em função de um dep[D]ois
-Que a família comece
-E termine sabendo onde vai
-E que o h[A7]omem carregue nos [A/C#]ombros
-A graça de um pai
-Que a mulher seja um céu de tern[D/F#]ura
-Aconchego e calor
-E que os f[D]ilhos conheçam
-A força que brota do amor
+Que nenh[D]uma família comece   Em qualquer de rep[A7]ente
+Que nenhuma família termine   Por falta de am[D]or
+Que o casal seja um para o outro   De corpo e de m[A7]ente
+E que nada no mundo separe   Um casal sonhad[D]or
+Que nenhuma família   Se abrigue debaixo da p[A7]onte
+Que ninguém interfira no lar   E na vida dos d[D]ois
+Que ninguém os obrigue   A viver sem nenhum horiz[A7]onte
+Que eles vivam do ontem   Do hoje e em função de um dep[D]ois
+Que a família comece   E termine sabendo onde vai
+E que o h[A7]omem carregue nos [A/C#]ombros   A graça de um pai
+Que a mulher seja um céu de tern[D/F#]ura   Aconchego e calor
+E que os f[D]ilhos conheçam   A força que brota do amor
 
 REFRÃO
-Abençoa, Senhor, as famílias! am[A7]ém!
-Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
-Abençoa, Senhor, as famílias! am[A7]ém!
-Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
+Abençoa, Senhor, as famílias! am[A7]ém!   Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
+Abençoa, Senhor, as famílias! am[A7]ém!   Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
 
-Que mar[D]ido e mulher tenham força
-De amar sem med[A7]ida
-Que ninguém vá dormir sem pedir
-Ou sem dar seu perd[D]ão
-Que as crianças aprendam no colo
-O sentido da v[A7]ida
-Que a família celebre a partilha
-Do abraço e do p[D]ão
-Que marido e mulher não se traiam
-Nem traiam seus filh[A7]os
-Que o ciúme não mate
-A certeza do amor entre os d[D]ois
-Que no seu firmamento
-A estrela que tem maior br[A7]ilho
-Seja a firme esperança de um céu
-Aqui mesmo e dep[D]ois
-Que a família comece
-E termine sabendo onde vai
-E que o h[A7]omem carregue nos [A/C#]ombros
-A graça de um pai
-Que a mulher seja um céu de tern[D/F#]ura
-Aconchego e calor
-E que os f[D]ilhos conheçam
-A força que brota do amor
+Que mar[D]ido e mulher tenham força   De amar sem med[A7]ida
+Que ninguém vá dormir sem pedir   Ou sem dar seu perd[D]ão
+Que as crianças aprendam no colo   O sentido da v[A7]ida
+Que a família celebre a partilha   Do abraço e do p[D]ão
+Que marido e mulher não se traiam   Nem traiam seus filh[A7]os
+Que o ciúme não mate   A certeza do amor entre os d[D]ois
+Que no seu firmamento   A estrela que tem maior br[A7]ilho
+Seja a firme esperança de um céu   Aqui mesmo e dep[D]ois
+Que a família comece   E termine sabendo onde vai
+E que o h[A7]omem carregue nos [A/C#]ombros   A graça de um pai
+Que a mulher seja um céu de tern[D/F#]ura   Aconchego e calor
+E que os f[D]ilhos conheçam   A força que brota do amor
 
 REFRÃO
 Abençoa, Senh[A7]or, a minha também`
