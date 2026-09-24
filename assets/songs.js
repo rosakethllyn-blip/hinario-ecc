@@ -490,35 +490,35 @@ REFRÃO`
 },
 {
   dia: "domingo", ordem: 4, numero: 29, pagina: 27,
-  titulo: "Salmo 145", tom: "G", tomObs: "sugerido",
+  titulo: "Salmo 145", tom: "E",
   corpo: `
-Por melh[G]or que seja algu[Dm7]ém   [G]
-Chega o d[C]ia em que há de faltar [G]
-[G]Só o Deus vivo a palavra man[Em7]tém
-E jam[C]ais Ele há de fal[D7]har
+Por melh[E]or que seja algu[Bm7]ém   [E]
+Chega o d[A]ia em que há de faltar [E]
+[E]Só o Deus vivo a palavra man[C#m7]tém
+E jam[A]ais Ele há de fal[B7]har
 
 REFRÃO
-Q[G]uero cantar ao Senh[C]or
-[Am7]Sempre, enquanto eu vi[D7]ver
-[Bm7]Hei de provar Seu [Em7]amor, Seu v[Cm]alor
-E S[G]eu [D7]pod[G]er [D7]
+Q[E]uero cantar ao Senh[A]or
+[F#m7]Sempre, enquanto eu vi[B7]ver
+[G#m7]Hei de provar Seu [C#m7]amor, Seu v[Am]alor
+E S[E]eu [B7]pod[E]er [B7]
 
-Nosso De[G]us põe-se do l[Dm7]ado  [G]
-Dos fam[C]intos e injustiça[G]dos
-[G]Dos pobres e opri[Em7]midos
-Dos inj[A]ustamente venci[D7]dos
+Nosso De[E]us põe-se do l[Bm7]ado  [E]
+Dos fam[A]intos e injustiça[E]dos
+[E]Dos pobres e opri[C#m7]midos
+Dos inj[F#]ustamente venci[B7]dos
 
 REFRÃO
 
-Ele barr[G]a o caminho do[Dm7]s mau[G]s
-Que ex[C]ploram sem compai[G]xão
-[G]Mas dá força ao b[Em7]raço dos bons
-Que sus[A]tentam o peso [D7]do irmão
+Ele barr[E]a o caminho do[Bm7]s mau[E]s
+Que ex[A]ploram sem compai[E]xão
+[E]Mas dá força ao b[C#m7]raço dos bons
+Que sus[F#]tentam o peso [B7]do irmão
 
-Esse[G] é o nosso D[Dm7]eus  [G]
-Seu pod[C]er permanece semp[G]re
-[G]Sua força é a for[Em7]ça da gente
-Vamos t[A]odos louvar no[D7]sso Deus`
+Esse[E] é o nosso D[Bm7]eus  [E]
+Seu pod[A]er permanece semp[E]re
+[E]Sua força é a for[C#m7]ça da gente
+Vamos t[F#]odos louvar no[B7]sso Deus`
 },
 {
   dia: "domingo", ordem: 5, numero: 20, pagina: 19,
