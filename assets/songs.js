@@ -65,7 +65,7 @@ Em seu [D]louvor
 [C]Senhor, dai-nos a ben[Dm]ção
 [G]E do mal que nos se[C]duz
 [Am]Nossos filhos e a nós guardai-[Em]nos
-[F]Boa noite, meu Je[G]sus [C](bis)`
+[F]Boa noite, meu Je[C]sus [G](bis)`
 },
 
 /* ========================= SÁBADO ========================= */
@@ -471,7 +471,7 @@ Que v[D]ivo est[G]á`
 [C]Senhor, dai-nos a ben[Dm]ção
 [G]E do mal que nos se[C]duz
 [Am]Nossos filhos e a nós guardai-[Em]nos
-[F]Boa noite, meu Je[G]sus [C](bis)`
+[F]Boa noite, meu Je[C]sus [G](bis)`
 },
 
 /* ======================== DOMINGO ======================== */
