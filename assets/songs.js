@@ -251,11 +251,11 @@ Chame a [Em]isso de Utop[Am]ia   Eu a [D7]isso chamo p[G]az`
   titulo: "Eu Tenho Tanto", tom: "G",
   corpo: `
 Eu tenho t[Am7]anto pra lhe fal[D7]ar
-Mas com pal[G]avras não sei diz[Bm7]er   [A#7]
-Como é gr[Am7]ande o meu am[D7]or por voc[G]ê    [G]          [Em7]
+Mas com pal[G]avras não sei diz[Em]er   
+Como é gr[Am7]ande o meu am[D7]or por voc[G]ê   [Em7]           
 E não há n[Am7]ada pra compar[D7]ar
-Para pod[G]er lhe explic[Bm7]ar   [A#7]
-Como é gr[Am7]ande o meu am[D7]or por v[G]ocê [C]      [G]   [Em7]
+Para pod[G]er lhe explic[Em]ar   
+Como é gr[Am7]ande o meu am[D7]or por v[G]ocê [Em7]         
 Nem mesmo o c[Am7]éu, nem as estr[D7]elas
 Nem mesmo o m[G]ar e o infin[Em7]ito
 Não é mai[Am7]or que o meu am[D7]or
@@ -263,15 +263,15 @@ Nem mais bon[G]ito  [G]          [Em7]
 Me desesp[Am7]ero a procur[D7]ar
 Alguma f[G]orma de lhe fal[Em7]ar
 Como é gr[A7]ande    [A7]   o meu am[A7]or       [A7]
-Por voc[D7]ê         [D7]    [Am7]     [G#°]
+Por voc[D7]ê                  
 Nunca se esqu[Am7]eça nenhum seg[D7]undo
-Que eu tenho o am[G]or maior do m[Bm7]undo  [A#7]
+Que eu tenho o am[G]or maior do m[Em]undo  
 Como é gr[Am7]ande o meu am[D7]or
-Por voc[G]ê  [C]      [G]
+Por voc[G]ê        [Em7]
 Nunca se esqu[Am7]eça nenhum seg[D7]undo
-Que eu t[G]enho o amor mai[Bm7]or do mund[A#7]o
-Como é gr[Am7]ande o meu am[D7]or por v[G]ocê  [G]          [Em7]
-Como é gr[Am7]ande o meu am[D7]or por voc[G]ê  [C]      [G]`
+Que eu t[G]enho o amor maior do mu[Em]ndo
+Como é gr[Am7]ande o meu am[D7]or por v[G]ocê     [Em7]       
+Como é gr[Am7]ande o meu am[D7]or por voc[G]ê`
 },
 {
   dia: "sabado", ordem: 10, numero: 18, pagina: 17,
