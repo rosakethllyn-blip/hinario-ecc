@@ -314,12 +314,12 @@ REFRÃO`
   corpo: `
 Pa[D]rece que eu sabia
 Que hoje era o dia de Cristo encon[A7]trar
-Pois logo notei quando te encon[A7]trei
+Pois logo [Em]notei quando te encon[A7]trei
 Pelo teu jeito de fa[D]lar
 
 Eu nunca pensei nem mesmo esperei
 Ver tanto amor no teu o[A7]lhar
-E como o mundo é grande vou nem sei pra onde
+E como o mundo é [Em]grande vou nem sei pra [A7]onde
 E onde eu for eu vou fa[D]lar
 
 Já nos encontramos
@@ -520,12 +520,12 @@ Vamos t[A]odos louvar no[D7]sso Deus`
   corpo: `
 Pa[D]rece que eu sabia
 Que hoje era o dia de Cristo encon[A7]trar
-Pois logo notei quando te encon[A7]trei
+Pois logo [Em]notei quando te encon[A7]trei
 Pelo teu jeito de fa[D]lar
 
 Eu nunca pensei nem mesmo esperei
 Ver tanto amor no teu o[A7]lhar
-E como o mundo é grande vou nem sei pra onde
+E como o mundo é [Em]grande vou nem sei pra [A7]onde
 E onde eu for eu vou fa[D]lar
 
 Já nos encontramos
