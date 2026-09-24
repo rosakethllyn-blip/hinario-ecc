@@ -73,17 +73,20 @@ Em seu [D]louvor
   dia: "sabado", ordem: 1, numero: 5, pagina: 5,
   titulo: "Alô Bom Dia", tom: "E", tomObs: "violão",
   corpo: `
+REFRÃO
 [E]Alô, bom dia, ó [A]como vai vo[E]cê
 [A]Um olhar bem amigo
 Um claro s[B]orriso um aperto de [E]mão
 E a gente sem [A]saber com e por q[E]ue
 Se sente fe[A]liz e sai a canta[B]r a alegre canç[E]ão
+
 [E]Saber dar um bom dia cheio de bon[F#m]dade
 [B7]Dizer bom dia com since[E]ridade
 É dar sempre o melhor do [F#m]nosso coraç[A]ão
 A[E]lô, bom dia, ir[B7]mão... [E]
 
 REFRÃO
+
 [E]Bom dia nada custa ao nosso cora[F#m]ção
 [B7]É bom fazer feliz o nosso irmão [E]
 Por Deus se deve amar, amar sem di[F#m]stinção [A]
@@ -399,17 +402,20 @@ REFRÃO`
   dia: "domingo", ordem: 1, numero: 5, pagina: 5,
   titulo: "Alô Bom Dia", tom: "E", tomObs: "violão",
   corpo: `
+REFRÃO
 [E]Alô, bom dia, ó [A]como vai vo[E]cê
 [A]Um olhar bem amigo
 Um claro s[B]orriso um aperto de [E]mão
 E a gente sem [A]saber com e por q[E]ue
 Se sente fe[A]liz e sai a canta[B]r a alegre canç[E]ão
+
 [E]Saber dar um bom dia cheio de bon[F#m]dade
 [B7]Dizer bom dia com since[E]ridade
 É dar sempre o melhor do [F#m]nosso coraç[A]ão
 A[E]lô, bom dia, ir[B7]mão... [E]
 
 REFRÃO
+
 [E]Bom dia nada custa ao nosso cora[F#m]ção
 [B7]É bom fazer feliz o nosso irmão [E]
 Por Deus se deve amar, amar sem di[F#m]stinção [A]
