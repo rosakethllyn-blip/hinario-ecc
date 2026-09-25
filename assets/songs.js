@@ -617,7 +617,7 @@ REFRÃO`
 [C]Eu sou cha[Am]mado, você é cha[C]mado, cha[Am]mados somos [F]todos [G]nós
 [C]Ao discipu[Am]lado, a missionarie[C]dade, [Am]à solidarie[F]da[G]de
 
-[Am]Assim reavi[F]vará o dom de [G]Deus, que es[F]tá em [C]ti, que es[G]tá em [C]mim, que está em [G]nós [C]
+[Am]Assim reavi[F]vará o dom de [G]Deus, que es[F]tá em [C]ti, que es[G]tá em [C]mim, que es[G]tá em [C]nós (2x)
 [Am]Senhor e [F]Deus, Pai Cri[G]ador, [F]graças e [C]bênçãos a[G]bundantes sobre [C]nós
 
 [C]Venham de [Am]vós constante[G]mente, somos o [C]povo, a na[Am]ção, pro[G]messa feita a Abra[C]ão
