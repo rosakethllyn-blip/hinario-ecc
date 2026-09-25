@@ -561,23 +561,21 @@ DEPOIS
   dia: "domingo", ordem: 8, numero: 33, pagina: 31,
   titulo: "Para Ser Feliz", tom: "G", tomObs: "sugerido",
   corpo: `
-P[G]ara ser feliz é prec[D7]iso ter
-Esse céu azul na im[G]ensidão
-É faz[G7]er da tristezas estr[C]elas a mais
-E do pr[D7]anto uma canç[G]ão
+[G]Para ser fe[Em]liz / é preciso [C]ver [D]
+[G]Este céu a[Em]zul / e esta imensi[C]dão [D]
+[G]É fazer das tris[Em]tezas / rique[C]zas a [D]mais
+[G]E do [C]pranto uma can[D]ção [G]
 
 REFRÃO
-Há um mundo b[D7]em melhor
-Todo feito pr[G]a você
-[G7]É um mundo p[C]equenino
-Que a ter[D7]nura f[G]ez
+[C]Há um mundo bem me[G]lhor
+[C]Todo feito pra vo[D]cês
+[C]É um mundo de a[G]mor [Em]
+[Am]Que o [D]Cristo [G]fez
 
-Para ser feliz é prec[D7]iso amar
-E ver cada dia uma estr[G]ela a brilhar
-É dei[G7]xar que a ternura inv[C]ada teu ser
-Pra na p[D7]az de Deus viv[G]er
-
-REFRÃO`
+[G]Cristo quer de [Em]mim / difundir seu a[C]mor [D]
+[G]Para constru[Em]ir / um mundo me[C]lhor [D]
+[G]E andar sem des[Em]canso / à procu[C]ra do [D]bem
+[G]E fazer meu ir[C]mão cres[D]cer [G]`
 },
 {
   dia: "domingo", ordem: 9, numero: 34, pagina: 32,
