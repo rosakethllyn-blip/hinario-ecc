@@ -614,17 +614,14 @@ REFRÃO`
   dia: "domingo", ordem: 6, numero: 36, pagina: 34,
   titulo: "Chamados à Missão", tom: "C",
   corpo: `
-[C]Eu sou cha[Am]mado, você é cha[C]mado, cha[Am]mados somos [F]todos [G]nós
-[C]Ao discipu[Am]lado, a missionarie[C]dade, [Am]à solidarie[F]da[G]de
+[C]Eu sou cha[Am]mado, você é chamado, [C]chamados [Am]somos [F]todos [G]nós
+[C]Ao discipu[Am]lado, a missionariedade, [C]à solidarie[Am]da[F]de [G]
 
 [Am]Assim reavi[F]vará o dom de [G]Deus, que es[F]tá em [C]ti, que es[G]tá em [C]mim, que es[G]tá em [C]nós (2x)
-[Am]Senhor e [F]Deus, Pai Cri[G]ador, [F]graças e [C]bênçãos a[G]bundantes sobre [C]nós
 
-[C]Venham de [Am]vós constante[G]mente, somos o [C]povo, a na[Am]ção, pro[G]messa feita a Abra[C]ão
-[C]Em Jesus [Am]Cristo somos dis[G]cípulos em perma[C]nente mis[Am]são
-[C]Senhor e [Am]Deus Pai Cri[G]ador, comprome[C]tidos com Je[Am]sus es[G]tamos [C]nós
+[C]Senhor e [Am]Deus, Pai Cri[G]ador, [C]graças e [Am]bênçãos a[G]bundantes sobre [C]nós
+[C]Venham de [Am]vós constante[G]mente, [C]somos o [Am]povo, a na[G]ção, promessa feita a Abra[C]ão
 
-[F]Venha a nós o [G]vosso reino, e que o Espírito es[Dm]teja na cami[F]nhada e nos pro[G]teja
-Nossa Senhora medianeira nos [C]seja`
+[F]Em Jesus [G]Cristo somos dis[Dm]cípulos em [F]perma[G]nente mis[C]são`
 }
 ];
