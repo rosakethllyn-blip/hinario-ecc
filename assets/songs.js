@@ -614,13 +614,13 @@ REFRÃO`
   dia: "domingo", ordem: 6, numero: 36, pagina: 34,
   titulo: "Chamados à Missão", tom: "C",
   corpo: `
-[C]Eu sou cha[Am]mado, você é chamado, [C]chamados [Am]somos [F]todos [G]nós
-[C]Ao discipu[Am]lado, a missionariedade, [C]à solidarie[Am]da[F]de [G]
+[C]Eu sou cha[Am]mado, [C]você é cham[Am]ado, c[F]hamados somos todos [G]nós
+[C]Ao discipu[Am]lado, [C]a missionarie[Am]dade, à [F]solidariedade [G]
 
 [Am]Assim reavi[F]vará o dom de [G]Deus, que es[F]tá em [C]ti, que es[G]tá em [C]mim, que es[G]tá em [C]nós (2x)
 
-[C]Senhor e [Am]Deus, Pai Cri[G]ador, [C]graças e [Am]bênçãos a[G]bundantes sobre [C]nós
-[C]Venham de [Am]vós constante[G]mente, [C]somos o [Am]povo, a na[G]ção, promessa feita a Abra[C]ão
+[C]Senhor e Deus, Pai C[Am]riador, [G]graças e bênçãos abundantes sobre [C]nós
+[C]Venham de vós constanteme[Am]nte, somos o po[G]vo, a nação[C], promessa [G]feita a Abra[C]ão
 
 [F]Em Jesus [G]Cristo somos dis[Dm]cípulos em [F]perma[G]nente mis[C]são`
 }
