@@ -591,12 +591,12 @@ Que nenhuma família   Se abrigue debaixo da p[A7]onte
 Que ninguém interfira no lar   E na vida dos d[D]ois
 Que ninguém os obrigue   A viver sem nenhum horiz[A7]onte
 Que eles vivam do ontem   Do hoje e em função de um dep[D]ois
+
+REFRÃO
 Que a família comece   E termine sabendo onde vai
 E que o h[A7]omem carregue nos [A/C#]ombros   A graça de um pai
 Que a mulher seja um céu de tern[D/F#]ura   Aconchego e calor
 E que os f[D]ilhos conheçam   A força que brota do amor
-
-REFRÃO
 Abençoa, Senhor, as famílias! am[A7]ém!   Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
 Abençoa, Senhor, as famílias! am[A7]ém!   Abenç[G]oa, Senh[A7]or, a minha tamb[D]ém
 
@@ -608,13 +608,8 @@ Que marido e mulher não se traiam   Nem traiam seus filh[A7]os
 Que o ciúme não mate   A certeza do amor entre os d[D]ois
 Que no seu firmamento   A estrela que tem maior br[A7]ilho
 Seja a firme esperança de um céu   Aqui mesmo e dep[D]ois
-Que a família comece   E termine sabendo onde vai
-E que o h[A7]omem carregue nos [A/C#]ombros   A graça de um pai
-Que a mulher seja um céu de tern[D/F#]ura   Aconchego e calor
-E que os f[D]ilhos conheçam   A força que brota do amor
 
-REFRÃO
-Abençoa, Senh[A7]or, a minha também`
+REFRÃO`
 },
 
 {
@@ -631,7 +626,7 @@ Abençoa, Senh[A7]or, a minha também`
 [C]Em Jesus [Am]Cristo somos dis[G]cípulos em perma[C]nente mis[Am]são
 [C]Senhor e [Am]Deus Pai Cri[G]ador, comprome[C]tidos com Je[Am]sus es[G]tamos [C]nós
 
-[Am]Venha a nós o [F]vosso reino, e que o Espírito es[A#]teja na caminhada e nos pro[C]teja
-Nossa Senhora medianeira nos seja`
+[F]Venha a nós o [G]vosso reino, e que o Espírito es[Dm]teja na cami[F]nhada e nos pro[G]teja
+Nossa Senhora medianeira nos [C]seja`
 }
 ];
