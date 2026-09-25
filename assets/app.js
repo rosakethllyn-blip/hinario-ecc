@@ -313,11 +313,17 @@
     el.mvNumero.textContent = "nº " + m.numero;
     el.mvObs.textContent = m.tomObs ? m.tomObs : "";
     el.mvObs.style.display = m.tomObs ? "" : "none";
+    var jaEstava = document.body.classList.contains("vendo-musica");
     document.body.classList.add("vendo-musica");
     el.cifraWrap.scrollTop = 0;
     window.scrollTo(0, 0);
     atualizarNav();
     atualizarCifra();
+    // cria uma entrada no histórico para o botão Voltar do celular fechar a
+    // música (voltar à lista) em vez de sair do app
+    if (!jaEstava) {
+      try { history.pushState({ hinario: "musica" }, ""); estado.historyPushed = true; } catch (e) {}
+    }
   }
 
   function atualizarCifra() {
@@ -622,11 +628,18 @@
     atualizarCifra();
   }
 
-  function fecharMusica() {
+  // fecha a música na tela (sem mexer no histórico)
+  function fecharMusicaUI() {
     if (estado.editando) { sairEdicao(false); }
     document.body.classList.remove("vendo-musica");
     document.body.classList.remove("sel-ativa");
     estado.musicaAtual = null;
+    estado.historyPushed = false;
+  }
+  // ação do botão Voltar (usa o histórico, p/ o botão físico do celular funcionar igual)
+  function voltar() {
+    if (estado.historyPushed) { history.back(); }
+    else { fecharMusicaUI(); }
   }
 
   /* ---------- Init ---------- */
@@ -646,7 +659,21 @@
     document.getElementById("nav-prev").onclick = function () { navegar(-1); };
     document.getElementById("nav-next").onclick = function () { navegar(1); };
 
-    document.getElementById("btn-voltar").onclick = fecharMusica;
+    document.getElementById("btn-voltar").onclick = voltar;
+
+    // botão Voltar do celular / navegador: volta para a lista sem sair do app
+    window.addEventListener("popstate", function () {
+      if (!document.body.classList.contains("vendo-musica")) return;
+      if (estado.editando) {
+        sairEdicao(false);
+        try { history.pushState({ hinario: "musica" }, ""); estado.historyPushed = true; } catch (e) {}
+        return;
+      }
+      document.body.classList.remove("vendo-musica");
+      document.body.classList.remove("sel-ativa");
+      estado.musicaAtual = null;
+      estado.historyPushed = false;
+    });
     document.getElementById("btn-menos").onclick = function () { transpor(-1); };
     document.getElementById("btn-mais").onclick = function () { transpor(1); };
     document.getElementById("btn-reset").onclick = function () {
@@ -734,7 +761,7 @@
       else if (e.key === "ArrowDown" || e.key === "-") { transpor(-1); }
       else if (e.key === "ArrowLeft") { navegar(-1); }
       else if (e.key === "ArrowRight") { navegar(1); }
-      else if (e.key === "Escape") { fecharMusica(); }
+      else if (e.key === "Escape") { voltar(); }
     });
 
     var reajuste;
