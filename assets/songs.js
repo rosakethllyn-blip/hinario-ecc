@@ -619,32 +619,19 @@ Abençoa, Senh[A7]or, a minha também`
 
 {
   dia: "domingo", ordem: 6, numero: 36, pagina: 34,
-  titulo: "Chamados à Missão", tom: "G", tomObs: "tom original",
+  titulo: "Chamados à Missão", tom: "C",
   corpo: `
-[G]Eu sou cha[Am]mado / Você é cha[D7]mado
-[G]Chamado somos todos [D7]nós [G]
+[C]Eu sou cha[Am]mado, você é cha[C]mado, cha[Am]mados somos [F]todos [G]nós
+[C]Ao discipu[Am]lado, a missionarie[C]dade, [Am]à solidarie[F]da[G]de
 
-[G]Ao discipu[Am]lado, à missionarie[D7]dade
-[G]À solidarie[D7]dade, [G]
+[Am]Assim reavi[F]vará o dom de [G]Deus, que es[F]tá em [C]ti, que es[G]tá em [C]mim, que está em [G]nós [C]
+[Am]Senhor e [F]Deus, Pai Cri[G]ador, [F]graças e [C]bênçãos a[G]bundantes sobre [C]nós
 
-[G]Assim reavivará o [Em]dom de [D]Deus
-[Am]Que está em [G]ti, que está em [D7]mim
-Que está em [G]nós
+[C]Venham de [Am]vós constante[G]mente, somos o [C]povo, a na[Am]ção, pro[G]messa feita a Abra[C]ão
+[C]Em Jesus [Am]Cristo somos dis[G]cípulos em perma[C]nente mis[Am]são
+[C]Senhor e [Am]Deus Pai Cri[G]ador, comprome[C]tidos com Je[Am]sus es[G]tamos [C]nós
 
-[Em]Senhor e [D]Deus / Pai-Cria[G]dor
-[Em]Graças e [D]bênçãos / abundantes sobre [G]nós [D]
-[Em]Venham de [D]vós / Constante[G]mente
-[Am]Somos o povo, a na[D7]ção / Promessa de Abra[G]ão
-
-[Em]Em Jesus [D]Cristo / somos discí[G]pulos
-[Am]Em perma[D7]nente mis[G]são
-
-[Em]Senhor e [D]Deus / Pai-Cria[G]dor
-[Am]Comprome[D7]tidos / com Jesus estamos [G]nós
-
-[Em]Venha a [D]nós / O vosso [G]reino
-[Am]E que o espírito es[D7]teja
-[Em]Na caminhada e nos pro[D]teja
-[D]Nossa se[D7]nhora / Medianeira nos [G]seja!`
+[Am]Venha a nós o [F]vosso reino, e que o Espírito es[A#]teja na caminhada e nos pro[C]teja
+Nossa Senhora medianeira nos seja`
 }
 ];
