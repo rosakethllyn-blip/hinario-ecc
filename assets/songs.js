@@ -71,26 +71,26 @@ Em seu [D]louvor
 /* ========================= SÁBADO ========================= */
 {
   dia: "sabado", ordem: 1, numero: 5, pagina: 5,
-  titulo: "Alô Bom Dia", tom: "E", tomObs: "violão",
+  titulo: "Alô Bom Dia", tom: "G", tomObs: "violão",
   corpo: `
 REFRÃO
-[E]Alô, bom dia, ó [A]como vai vo[E]cê
-[A]Um olhar bem amigo
-Um claro s[B]orriso um aperto de [E]mão
-E a gente sem [A]saber com e por q[E]ue
-Se sente fe[A]liz e sai a canta[B]r a alegre canç[E]ão
+[G]Alô, bom dia, ó [C]como vai vo[G]cê
+[C]Um olhar bem amigo
+Um claro s[D]orriso um aperto de [G]mão
+E a gente sem [C]saber com e por q[G]ue
+Se sente fe[C]liz e sai a canta[D]r a alegre canç[G]ão
 
-[E]Saber dar um bom dia cheio de bon[F#m]dade
-[B7]Dizer bom dia com since[E]ridade
-É dar sempre o melhor do [F#m]nosso coraç[A]ão
-A[E]lô, bom dia, ir[B7]mão... [E]
+[G]Saber dar um bom dia cheio de bon[Am]dade
+[D7]Dizer bom dia com since[G]ridade
+É dar sempre o melhor do [Am]nosso coraç[C]ão
+A[G]lô, bom dia, ir[D7]mão... [G]
 
 REFRÃO
 
-[E]Bom dia nada custa ao nosso cora[F#m]ção
-[B7]É bom fazer feliz o nosso irmão [E]
-Por Deus se deve amar, amar sem di[F#m]stinção [A]
-A[E]lô, bom dia, ir[B7]mão... [E]`
+[G]Bom dia nada custa ao nosso cora[Am]ção
+[D7]É bom fazer feliz o nosso irmão [G]
+Por Deus se deve amar, amar sem di[Am]stinção [C]
+A[G]lô, bom dia, ir[D7]mão... [G]`
 },
 {
   dia: "sabado", ordem: 2, numero: 6, pagina: 6,
@@ -400,26 +400,26 @@ REFRÃO`
 /* ======================== DOMINGO ======================== */
 {
   dia: "domingo", ordem: 1, numero: 5, pagina: 5,
-  titulo: "Alô Bom Dia", tom: "E", tomObs: "violão",
+  titulo: "Alô Bom Dia", tom: "G", tomObs: "violão",
   corpo: `
 REFRÃO
-[E]Alô, bom dia, ó [A]como vai vo[E]cê
-[A]Um olhar bem amigo
-Um claro s[B]orriso um aperto de [E]mão
-E a gente sem [A]saber com e por q[E]ue
-Se sente fe[A]liz e sai a canta[B]r a alegre canç[E]ão
+[G]Alô, bom dia, ó [C]como vai vo[G]cê
+[C]Um olhar bem amigo
+Um claro s[D]orriso um aperto de [G]mão
+E a gente sem [C]saber com e por q[G]ue
+Se sente fe[C]liz e sai a canta[D]r a alegre canç[G]ão
 
-[E]Saber dar um bom dia cheio de bon[F#m]dade
-[B7]Dizer bom dia com since[E]ridade
-É dar sempre o melhor do [F#m]nosso coraç[A]ão
-A[E]lô, bom dia, ir[B7]mão... [E]
+[G]Saber dar um bom dia cheio de bon[Am]dade
+[D7]Dizer bom dia com since[G]ridade
+É dar sempre o melhor do [Am]nosso coraç[C]ão
+A[G]lô, bom dia, ir[D7]mão... [G]
 
 REFRÃO
 
-[E]Bom dia nada custa ao nosso cora[F#m]ção
-[B7]É bom fazer feliz o nosso irmão [E]
-Por Deus se deve amar, amar sem di[F#m]stinção [A]
-A[E]lô, bom dia, ir[B7]mão... [E]`
+[G]Bom dia nada custa ao nosso cora[Am]ção
+[D7]É bom fazer feliz o nosso irmão [G]
+Por Deus se deve amar, amar sem di[Am]stinção [C]
+A[G]lô, bom dia, ir[D7]mão... [G]`
 },
 {
   dia: "domingo", ordem: 2, numero: 28, pagina: 26,
